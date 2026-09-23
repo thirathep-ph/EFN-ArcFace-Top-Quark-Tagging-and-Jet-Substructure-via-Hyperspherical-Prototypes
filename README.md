@@ -6,7 +6,7 @@
 
 ![Project overview](docs/infographic.png)
 
-**[🖼️ Results Gallery — all 42 experiment figures with one-line captions](docs/RESULTS.md)**
+**[🖼️ Results Gallery](docs/RESULTS.md)**
 
 ## Intro
 
