@@ -1,0 +1,31 @@
+{
+  "n_jets": 200,
+  "checkpoint": "D:\\research\\jet_tagging\\experiments\\robustness_s16_m05\\checkpoint.pt",
+  "tests": {
+    "soft_e0.01": {
+      "mean_cos_sim": 0.9998842477798462,
+      "min_cos_sim": 0.9952322244644165
+    },
+    "soft_e0.001": {
+      "mean_cos_sim": 0.9999986886978149,
+      "min_cos_sim": 0.999951958656311
+    },
+    "soft_e0.0001": {
+      "mean_cos_sim": 1.0,
+      "min_cos_sim": 0.9999995231628418
+    },
+    "soft_e1e-05": {
+      "mean_cos_sim": 1.0,
+      "min_cos_sim": 0.9999998807907104
+    },
+    "collinear_split": {
+      "mean_cos_sim": 0.9999999403953552,
+      "min_cos_sim": 0.9999968409538269
+    },
+    "masking_stability": {
+      "mean_cos_sim": 1.0,
+      "min_cos_sim": 0.9999998211860657
+    }
+  },
+  "summary": "cosine similarity > 0.999 at all levels"
+}

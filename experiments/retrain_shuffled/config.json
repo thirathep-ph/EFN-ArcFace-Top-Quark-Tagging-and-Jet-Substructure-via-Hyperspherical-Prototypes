@@ -1,0 +1,19 @@
+{
+    "seed": 42,
+    "epochs": 50,
+    "max_events": null,
+    "quick": false,
+    "scale": 16.0,
+    "margin": null,
+    "embedding_dim": 64,
+    "particle_dim": 128,
+    "output_dir": "experiments/retrain_shuffled",
+    "checkpoint_dir": "experiments/retrain_shuffled",
+    "batch_size": 128,
+    "accumulation_steps": 8,
+    "no_chunk": false,
+    "chunk_size": 100000,
+    "train_only": false,
+    "amp": false,
+    "shuffle_labels": 123
+}

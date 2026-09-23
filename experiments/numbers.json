@@ -1,0 +1,417 @@
+{
+ "entries": [
+  {
+   "artifact": "experiments/arcface_seed_metrics.json",
+   "expect": 91.84,
+   "name": "arcface_acc_s16_pct",
+   "paper_text": "91.84\\%",
+   "pointer": "42.accuracy",
+   "scale": 100,
+   "tol": 0.005
+  },
+  {
+   "artifact": "experiments/arcface_seed_metrics.json",
+   "expect": 181017,
+   "name": "cm_TN",
+   "paper_text": "181017",
+   "pointer": "42.confusion_matrix.0.0",
+   "tol": 0
+  },
+  {
+   "artifact": "experiments/arcface_seed_metrics.json",
+   "expect": 20897,
+   "name": "cm_FP",
+   "paper_text": "20897",
+   "pointer": "42.confusion_matrix.0.1",
+   "tol": 0
+  },
+  {
+   "artifact": "experiments/arcface_seed_metrics.json",
+   "expect": 12068,
+   "name": "cm_FN",
+   "paper_text": "12068",
+   "pointer": "42.confusion_matrix.1.0",
+   "tol": 0
+  },
+  {
+   "artifact": "experiments/arcface_seed_metrics.json",
+   "expect": 190018,
+   "name": "cm_TP",
+   "paper_text": "190018",
+   "pointer": "42.confusion_matrix.1.1",
+   "tol": 0
+  },
+  {
+   "artifact": "experiments/seed_accs.json",
+   "expect": 92.0,
+   "name": "coslinear_3seed_mean_pct",
+   "paper_text": "92.00",
+   "pointer": "mean:baselines_coslinear_seed_42.accuracy,baselines_coslinear_seed_123.accuracy,baselines_coslinear_seed_7.accuracy",
+   "scale": 100,
+   "tol": 0.01
+  },
+  {
+   "artifact": "experiments/seed_accs.json",
+   "expect": 91.81,
+   "name": "s22_3seed_mean_pct",
+   "paper_text": "91.81\\%",
+   "pointer": "mean:robustness_s22_m05.accuracy,robustness_s22_seed_123.accuracy,robustness_s22_seed_7.accuracy",
+   "scale": 100,
+   "tol": 0.01
+  },
+  {
+   "artifact": "experiments/rf_baseline_results.json",
+   "expect": 92.37,
+   "name": "rf_acc_pct",
+   "paper_text": "92.37\\%",
+   "pointer": "accuracy",
+   "scale": 100,
+   "tol": 0.005
+  },
+  {
+   "artifact": "experiments/dglap_fit_params.json",
+   "expect": -1.242,
+   "name": "dglap_alpha_qcd_core",
+   "paper_text": "-1.242",
+   "pointer": "QCD_Core.alpha",
+   "tol": 0.001
+  },
+  {
+   "artifact": "experiments/dglap_fit_params.json",
+   "expect": -1.022,
+   "name": "dglap_alpha_qcd_edge",
+   "paper_text": "-1.022",
+   "pointer": "QCD_Edge.alpha",
+   "tol": 0.001
+  },
+  {
+   "artifact": "experiments/dglap_fit_params.json",
+   "expect": -0.493,
+   "name": "dglap_alpha_top_core",
+   "paper_text": "-0.493",
+   "pointer": "Top_Core.alpha",
+   "tol": 0.001
+  },
+  {
+   "artifact": "experiments/dglap_fit_params.json",
+   "expect": 1.105,
+   "name": "dglap_alpha_top_edge",
+   "paper_text": "+1.105",
+   "pointer": "Top_Edge.alpha",
+   "tol": 0.001
+  },
+  {
+   "artifact": "experiments/dglap_fit_params.json",
+   "expect": 100.0,
+   "name": "topedge_amplitude_bound",
+   "paper_text": "A \\to 100",
+   "pointer": "Top_Edge.A",
+   "tol": 0.01
+  },
+  {
+   "artifact": "experiments/subclass_label_comparison.json",
+   "expect": -1.267,
+   "name": "gt_alpha_qcd_core",
+   "paper_text": "$-1.267$",
+   "pointer": "true_partition.QCD.subclasses.QCD_Core.alpha",
+   "tol": 0.001
+  },
+  {
+   "artifact": "experiments/subclass_label_comparison.json",
+   "expect": -0.859,
+   "name": "gt_alpha_qcd_edge",
+   "paper_text": "$-0.859$",
+   "pointer": "true_partition.QCD.subclasses.QCD_Edge.alpha",
+   "tol": 0.001
+  },
+  {
+   "artifact": "experiments/subclass_label_comparison.json",
+   "expect": -0.543,
+   "name": "gt_alpha_top_core",
+   "paper_text": "$-0.543$",
+   "pointer": "true_partition.Top.subclasses.Top_Core.alpha",
+   "tol": 0.001
+  },
+  {
+   "artifact": "experiments/subclass_label_comparison.json",
+   "expect": 1.106,
+   "name": "gt_alpha_top_edge",
+   "paper_text": "$+1.106$",
+   "pointer": "true_partition.Top.subclasses.Top_Edge.alpha",
+   "tol": 0.001
+  },
+  {
+   "artifact": "experiments/final_analysis_results.json",
+   "expect": 91.76,
+   "name": "bootstrap_ci_lower_pct",
+   "paper_text": "91.76\\%",
+   "pointer": "bootstrap_ci.arcface_s16_m05.ci_lower",
+   "scale": 100,
+   "tol": 0.005
+  },
+  {
+   "artifact": "experiments/final_analysis_results.json",
+   "expect": 91.92,
+   "name": "bootstrap_ci_upper_pct",
+   "paper_text": "91.92\\%",
+   "pointer": "bootstrap_ci.arcface_s16_m05.ci_upper",
+   "scale": 100,
+   "tol": 0.005
+  },
+  {
+   "artifact": null,
+   "name": "total_params_code_verified",
+   "paper_text": "59,072",
+   "text_only": true
+  },
+  {
+   "artifact": "experiments/paired_model_stats.json",
+   "name": "mcnemar_chi2",
+   "paper_text": "32.3",
+   "text_only": true,
+   "pointer": "mcnemar_pairwise.arcface_s16_m05_vs_coslinear_seed42.chi2_cc",
+   "expect": 32.3,
+   "tol": 0.05
+  },
+  {
+   "artifact": "experiments/dimensionality_results.json",
+   "name": "prototype_distance_rad",
+   "paper_text": "0.76 rad",
+   "text_only": true,
+   "pointer": "class_center_angular_distance_rad",
+   "expect": 0.76,
+   "tol": 0.01
+  },
+  {
+   "name": "twonn_arcface",
+   "artifact": "experiments/dim_3way_50k.json",
+   "pointer": "ArcFace.twonn",
+   "scale": 1,
+   "expect": 2.21,
+   "tol": 0.005,
+   "paper_text": "2.21"
+  },
+  {
+   "name": "twonn_coslinear",
+   "artifact": "experiments/dim_3way_50k.json",
+   "pointer": "CosLinear.twonn",
+   "scale": 1,
+   "expect": 4.98,
+   "tol": 0.005,
+   "paper_text": "4.98"
+  },
+  {
+   "name": "twonn_linear",
+   "artifact": "experiments/dim_3way_50k.json",
+   "pointer": "Linear.twonn",
+   "scale": 1,
+   "expect": 5.19,
+   "tol": 0.005,
+   "paper_text": "5.19"
+  },
+  {
+   "name": "pr_arcface",
+   "artifact": "experiments/dim_3way_50k.json",
+   "pointer": "ArcFace.pr",
+   "scale": 1,
+   "expect": 1.38,
+   "tol": 0.005,
+   "paper_text": "1.38"
+  },
+  {
+   "name": "pr_coslinear",
+   "artifact": "experiments/dim_3way_50k.json",
+   "pointer": "CosLinear.pr",
+   "scale": 1,
+   "expect": 5.63,
+   "tol": 0.005,
+   "paper_text": "5.63"
+  },
+  {
+   "name": "pr_linear",
+   "artifact": "experiments/dim_3way_50k.json",
+   "pointer": "Linear.pr",
+   "scale": 1,
+   "expect": 1.44,
+   "tol": 0.005,
+   "paper_text": "1.44"
+  },
+  {
+   "name": "pca_pc1_pct",
+   "artifact": "experiments/dim_3way_50k.json",
+   "pointer": "ArcFace.pca_top6.0",
+   "scale": 100,
+   "expect": 83.6,
+   "tol": 0.05,
+   "paper_text": "83.6\\%"
+  },
+  {
+   "name": "pca_pc2_pct",
+   "artifact": "experiments/dim_3way_50k.json",
+   "pointer": "ArcFace.pca_top6.1",
+   "scale": 100,
+   "expect": 16.4,
+   "tol": 0.05,
+   "paper_text": "16.4\\%"
+  },
+  {
+   "name": "mcnemar_p",
+   "artifact": "experiments/paired_model_stats.json",
+   "pointer": "mcnemar_pairwise.arcface_s16_m05_vs_coslinear_seed42.p_chi2",
+   "scale": 1,
+   "expect": 1.3e-08,
+   "tol": 1e-09,
+   "paper_text": "$p = 1.3 \\times 10^{-8}$"
+  },
+  {
+   "name": "auc_arcface",
+   "artifact": "experiments/paired_model_stats.json",
+   "pointer": "per_model.arcface_s16_m05.roc_auc",
+   "scale": 1,
+   "expect": 0.974,
+   "tol": 0.0005,
+   "paper_text": "0.974"
+  },
+  {
+   "name": "auc_coslinear",
+   "artifact": "experiments/paired_model_stats.json",
+   "pointer": "per_model.coslinear_seed42.roc_auc",
+   "scale": 1,
+   "expect": 0.975,
+   "tol": 0.0005,
+   "paper_text": "0.975"
+  },
+  {
+   "name": "rejection_tpr50",
+   "artifact": "experiments/final_analysis_results.json",
+   "pointer": "rejection_rates.arcface_s16_m05.rejection_rates.tpr_50.rejection",
+   "scale": 1,
+   "expect": 124,
+   "tol": 0.5,
+   "paper_text": "124"
+  },
+  {
+   "name": "qcd_mass_core",
+   "artifact": "experiments/predicted_effect_sizes.json",
+   "pointer": "subclasses.QCD.mass_mean_core",
+   "scale": 1,
+   "expect": 62.4,
+   "tol": 0.1,
+   "paper_text": "62 vs 134\\,GeV"
+  },
+  {
+   "name": "qcd_mass_edge",
+   "artifact": "experiments/predicted_effect_sizes.json",
+   "pointer": "subclasses.QCD.mass_mean_edge",
+   "scale": 1,
+   "expect": 133.6,
+   "tol": 0.1,
+   "paper_text": "62 vs 134\\,GeV"
+  },
+  {
+   "name": "top_tau32_core",
+   "artifact": "experiments/predicted_effect_sizes.json",
+   "pointer": "subclasses.Top.tau32_mean_core",
+   "scale": 1,
+   "expect": 0.63,
+   "tol": 0.01,
+   "paper_text": "0.63 vs 0.46"
+  },
+  {
+   "name": "top_tau32_edge",
+   "artifact": "experiments/predicted_effect_sizes.json",
+   "pointer": "subclasses.Top.tau32_mean_edge",
+   "scale": 1,
+   "expect": 0.46,
+   "tol": 0.01,
+   "paper_text": "0.63 vs 0.46"
+  },
+  {
+   "name": "top_tau32_cohens_d",
+   "artifact": "experiments/predicted_effect_sizes.json",
+   "pointer": "subclasses.Top.tau32_d",
+   "scale": 1,
+   "expect": 1.58,
+   "tol": 0.01,
+   "paper_text": "Cohen's $d = 1.58$"
+  },
+  {
+   "name": "coslinear_std",
+   "artifact": "experiments/seed_accs.json",
+   "pointer": "std:baselines_coslinear_seed_42.accuracy,baselines_coslinear_seed_123.accuracy,baselines_coslinear_seed_7.accuracy",
+   "scale": 100,
+   "expect": 0.03,
+   "tol": 0.01,
+   "paper_text": "$\\pm$ 0.03\\%"
+  },
+  {
+   "name": "arcface_seed123",
+   "artifact": "experiments/arcface_seed_metrics.json",
+   "pointer": "123.accuracy",
+   "scale": 100,
+   "expect": 91.88,
+   "tol": 0.005,
+   "paper_text": "91.88\\%"
+  },
+  {
+   "name": "arcface_seed7",
+   "artifact": "experiments/arcface_seed_metrics.json",
+   "pointer": "7.accuracy",
+   "scale": 100,
+   "expect": 91.83,
+   "tol": 0.005,
+   "paper_text": "91.83\\%"
+  },
+  {
+   "name": "arcface_spread",
+   "artifact": "experiments/arcface_seed_metrics.json",
+   "pointer": "spread:42.accuracy,123.accuracy,7.accuracy",
+   "scale": 100,
+   "expect": 0.05,
+   "tol": 0.01,
+   "paper_text": "spread 0.05 pp"
+  },
+  {
+   "name": "s22_seed_a",
+   "artifact": "experiments/seed_accs.json",
+   "pointer": "robustness_s22_m05.accuracy",
+   "scale": 100,
+   "expect": 91.82,
+   "tol": 0.005,
+   "paper_text": "91.82/91.80/91.82\\%"
+  },
+  {
+   "name": "s22_seed_b",
+   "artifact": "experiments/seed_accs.json",
+   "pointer": "robustness_s22_seed_123.accuracy",
+   "scale": 100,
+   "expect": 91.8,
+   "tol": 0.005,
+   "paper_text": "91.82/91.80/91.82\\%"
+  },
+  {
+   "name": "s22_seed_c",
+   "artifact": "experiments/seed_accs.json",
+   "pointer": "robustness_s22_seed_7.accuracy",
+   "scale": 100,
+   "expect": 91.82,
+   "tol": 0.005,
+   "paper_text": "91.82/91.80/91.82\\%"
+  },
+  {
+   "name": "prototype_distance_deg",
+   "artifact": "experiments/dimensionality_results.json",
+   "pointer": "class_center_angular_distance_deg",
+   "scale": 1,
+   "expect": 43.6,
+   "tol": 0.05,
+   "paper_text": "43.6"
+  },
+  {
+   "name": "linear_std_textonly",
+   "text_only": true,
+   "paper_text": "$\\pm$ 0.01\\%",
+   "note": "no artifact persisted: 3-seed Linear values only in Table 1"
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+  "stage": "p1",
+  "n_samples": 200000,
+  "fit_seconds": 576.9400188922882,
+  "n_outputs": 2,
+  "best_loss": [
+    1.2902613,
+    0.6825631
+  ],
+  "equations_per_output": [
+    [
+      {
+        "complexity": 1,
+        "loss": 1.2902613,
+        "score": 0.0,
+        "equation": "-1.1751317"
+      },
+      {
+        "complexity": 4,
+        "loss": 0.6510507,
+        "score": 0.22800417187424193,
+        "equation": "abs(x1) / -0.19365841"
+      },
+      {
+        "complexity": 6,
+        "loss": 0.6176871,
+        "score": 0.026302750400425335,
+        "equation": "-0.6262148 - square(x1 * -2.6916502)"
+      },
+      {
+        "complexity": 7,
+        "loss": 0.43468568,
+        "score": 0.35135882336643715,
+        "equation": "(abs(x1) / -0.22045851) - abs(x0)"
+      },
+      {
+        "complexity": 8,
+        "loss": 0.35249406,
+        "score": 0.20958942414659634,
+        "equation": "(square(x0) + abs(abs(x1))) / -0.1842482"
+      },
+      {
+        "complexity": 9,
+        "loss": 0.18437487,
+        "score": 0.6480627490374229,
+        "equation": "(abs(x1) / -0.27039763) - square(x0 * 2.4118092)"
+      },
+      {
+        "complexity": 11,
+        "loss": 0.122730546,
+        "score": 0.203489876309771,
+        "equation": "(square(x1) + (square(x0 * 0.97366804) + 0.041086167)) * -6.1985226"
+      },
+      {
+        "complexity": 13,
+        "loss": 0.11069756,
+        "score": 0.05159473573581212,
+        "equation": "(square(x1 + x1) + (square(x0 * 1.90023) + 0.09925623)) * -1.755774"
+      },
+      {
+        "complexity": 15,
+        "loss": 0.10606129,
+        "score": 0.02139233167813112,
+        "equation": "-1.7557853 * ((0.0980792 + square(x1 + x1)) + square(0.037552685 + (x0 * 1.8992832)))"
+      },
+      {
+        "complexity": 18,
+        "loss": 0.09737215,
+        "score": 0.02849229969725228,
+        "equation": "(square(square(x1) + (square(x1) + 0.24245133)) + (abs(x1) + square(x0 * -1.918707))) * -1.7139447"
+      },
+      {
+        "complexity": 20,
+        "loss": 0.09693292,
+        "score": 0.0022605212933891968,
+        "equation": "(square(square(x1) + (square(x1 / 1.0057646) + 0.19244325)) + (abs(x1) + square(x0 * -1.8616468))) * -1.8405914"
+      },
+      {
+        "complexity": 22,
+        "loss": 0.09279828,
+        "score": 0.021795543872747812,
+        "equation": "-1.7139447 * (square(square(x1) + (square(x1 / 0.98846203) + 0.24245133)) + (abs(x1) + square(-1.918707 * (-0.01668022 - x0))))"
+      }
+    ],
+    [
+      {
+        "complexity": 1,
+        "loss": 0.6825631,
+        "score": 0.0,
+        "equation": "-0.7304389"
+      },
+      {
+        "complexity": 4,
+        "loss": 0.55561084,
+        "score": 0.06859561862297137,
+        "equation": "-0.52474403 - abs(x0)"
+      },
+      {
+        "complexity": 5,
+        "loss": 0.50652564,
+        "score": 0.0924931768064317,
+        "equation": "(x0 * x0) * -6.26215"
+      },
+      {
+        "complexity": 6,
+        "loss": 0.40851438,
+        "score": 0.21504782868372826,
+        "equation": "-0.32757512 - square(x0 / 0.4679962)"
+      },
+      {
+        "complexity": 7,
+        "loss": 0.4040361,
+        "score": 0.011022885234122334,
+        "equation": "((x0 * -4.6964984) * x0) - 0.38319972"
+      },
+      {
+        "complexity": 8,
+        "loss": 0.38001007,
+        "score": 0.06130647803543254,
+        "equation": "1.9816153 - (exp(exp(square(x0))) + -0.2779384)"
+      },
+      {
+        "complexity": 9,
+        "loss": 0.3345823,
+        "score": 0.1273148641996509,
+        "equation": "-0.32757512 - (square(x0 / 0.4679962) + square(x1))"
+      },
+      {
+        "complexity": 10,
+        "loss": 0.30076298,
+        "score": 0.10656037547644402,
+        "equation": "-0.32022345 - square(abs(x0 / -0.44819853) + square(x1))"
+      },
+      {
+        "complexity": 12,
+        "loss": 0.18653816,
+        "score": 0.23884334163966134,
+        "equation": "2.3139312 - exp(exp(square(x0) + ((x1 * x1) + -0.07603101)))"
+      }
+    ]
+  ]
+}

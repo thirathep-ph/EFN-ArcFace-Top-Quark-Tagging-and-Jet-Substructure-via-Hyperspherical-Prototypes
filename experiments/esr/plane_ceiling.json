@@ -1,0 +1,9 @@
+{
+  "n_events": 40000,
+  "plane_ls_r2": 0.6770784866641277,
+  "nn_accuracy": 0.91725,
+  "nn_logitdiff_accuracy": 0.91725,
+  "plane_accuracy": 0.8521,
+  "plane_auc": 0.9017864371609291,
+  "plane_vs_nn_logitdiff_corr": 0.8512910058721556
+}

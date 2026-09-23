@@ -1,0 +1,22 @@
+{
+  "source": "D:\\research\\jet_tagging\\experiments\\physics_sr\\fit_full.json",
+  "c6_equation": "(Tau32 * -0.3476249) + tanh(Mass_over_pT)",
+  "c2_equation": "tanh(Mass_over_pT)",
+  "ablation": "Tau32 input zeroed in c=6 equation (only place tau32 enters)",
+  "n": 404000,
+  "ablated_metrics": {
+    "acc": 0.8823935643564357,
+    "auc": 0.9058673367266646,
+    "rej50": 11.31170868347339,
+    "n": 404000
+  },
+  "c2_metrics": {
+    "acc": 0.8823935643564357,
+    "auc": 0.9058673367266646,
+    "rej50": 11.31170868347339,
+    "n": 404000
+  },
+  "max_abs_diff_ablated_vs_c2": 0.0,
+  "paper_claim": "disabling tau32 reduces to tanh(m/pT) alone (86.6% acc, AUC 0.906)",
+  "note": "Committed c=2 eval (symbolic_eval.json) gives acc 0.8824, AUC 0.9059; the paper's 86.6% was not traceable to a committed artifact and is replaced by the reproducible value here."
+}

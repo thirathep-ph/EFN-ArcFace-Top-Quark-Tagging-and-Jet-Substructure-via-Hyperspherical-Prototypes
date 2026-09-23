@@ -1,0 +1,17 @@
+{
+    "seed": 42,
+    "epochs": 50,
+    "max_events": null,
+    "quick": false,
+    "scale": 16.0,
+    "margin": 0.5,
+    "embedding_dim": 2,
+    "particle_dim": 128,
+    "output_dir": "experiments/ablation_dim_2",
+    "checkpoint_dir": "experiments/ablation_dim_2",
+    "batch_size": 128,
+    "accumulation_steps": 8,
+    "no_chunk": true,
+    "chunk_size": 100000,
+    "amp": false
+}

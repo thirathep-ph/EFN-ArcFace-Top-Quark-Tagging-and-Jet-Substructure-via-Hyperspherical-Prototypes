@@ -1,0 +1,45 @@
+{
+  "n_events": 404000,
+  "composition": {
+    "QCD-Core": {
+      "subclass": "QCD-Core",
+      "n": 117786,
+      "status_pct": {
+        "True Positive": 0.0,
+        "False Positive": 0.0,
+        "True Negative": 99.89132834122901,
+        "False Negative": 0.10867165877099146
+      }
+    },
+    "QCD-Edge": {
+      "subclass": "QCD-Edge",
+      "n": 75299,
+      "status_pct": {
+        "True Positive": 0.0,
+        "False Positive": 0.0,
+        "True Negative": 84.14321571335608,
+        "False Negative": 15.856784286643913
+      }
+    },
+    "Top-Core": {
+      "subclass": "Top-Core",
+      "n": 111029,
+      "status_pct": {
+        "True Positive": 82.54600149510487,
+        "False Positive": 17.453998504895118,
+        "True Negative": 0.0,
+        "False Negative": 0.0
+      }
+    },
+    "Top-Edge": {
+      "subclass": "Top-Edge",
+      "n": 99886,
+      "status_pct": {
+        "True Positive": 98.48026750495565,
+        "False Positive": 1.5197324950443505,
+        "True Negative": 0.0,
+        "False Negative": 0.0
+      }
+    }
+  }
+}

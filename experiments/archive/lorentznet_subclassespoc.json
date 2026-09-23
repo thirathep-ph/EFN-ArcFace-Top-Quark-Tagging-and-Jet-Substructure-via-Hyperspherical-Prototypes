@@ -1,0 +1,128 @@
+{
+  "model": "LorentzNet + ArcFace",
+  "n_events": 30000,
+  "max_constits": 64,
+  "checkpoint": "D:\\research\\jet_tagging\\experiments\\lorentznet_arcface\\checkpoint.pt",
+  "ari_vs_efn": {
+    "global_4way": 0.5099,
+    "qcd": 0.4162,
+    "top": 0.0907
+  },
+  "ln_subclass_sizes": {
+    "QCD_Core": 11694,
+    "QCD_Edge": 3386,
+    "Top_Core": 6317,
+    "Top_Edge": 4677
+  },
+  "efn_subclass_sizes": {
+    "QCD_Core": 9107,
+    "QCD_Edge": 5973,
+    "Top_Core": 7557,
+    "Top_Edge": 7363
+  },
+  "ln_dglap": {
+    "QCD_Core": {
+      "n": 11520,
+      "alpha": -1.206,
+      "beta": -1.0519,
+      "r2": 0.9873,
+      "A": 0.3327
+    },
+    "QCD_Edge": {
+      "n": 3386,
+      "alpha": -0.6177,
+      "beta": 0.0262,
+      "r2": 0.9405,
+      "A": 1.0954
+    },
+    "Top_Core": {
+      "n": 6317,
+      "alpha": 0.459,
+      "beta": 4.3215,
+      "r2": 0.9593,
+      "A": 19.6235
+    },
+    "Top_Edge": {
+      "n": 4677,
+      "alpha": 0.5881,
+      "beta": 3.9948,
+      "r2": 0.9092,
+      "A": 21.4902
+    }
+  },
+  "efn_dglap": {
+    "QCD_Core": {
+      "n": 8936,
+      "alpha": -1.3037,
+      "beta": -1.354,
+      "r2": 0.9835,
+      "A": 0.2624
+    },
+    "QCD_Edge": {
+      "n": 5970,
+      "alpha": -0.7405,
+      "beta": -0.0161,
+      "r2": 0.9756,
+      "A": 0.906
+    },
+    "Top_Core": {
+      "n": 7556,
+      "alpha": -0.6873,
+      "beta": -0.2422,
+      "r2": 0.9155,
+      "A": 0.9086
+    },
+    "Top_Edge": {
+      "n": 7363,
+      "alpha": 1.096,
+      "beta": 6.6448,
+      "r2": 0.9786,
+      "A": 100.0
+    }
+  },
+  "ln_physics": {
+    "QCD_Core": {
+      "n": 11694,
+      "mass_mean_gev": 74.2,
+      "tau32_mean": 0.741
+    },
+    "QCD_Edge": {
+      "n": 3386,
+      "mass_mean_gev": 171.1,
+      "tau32_mean": 0.7052
+    },
+    "Top_Core": {
+      "n": 6317,
+      "mass_mean_gev": 172.89,
+      "tau32_mean": 0.4804
+    },
+    "Top_Edge": {
+      "n": 4677,
+      "mass_mean_gev": 197.49,
+      "tau32_mean": 0.5922
+    }
+  },
+  "efn_physics": {
+    "QCD_Core": {
+      "n": 9107,
+      "mass_mean_gev": 63.97,
+      "tau32_mean": 0.7405
+    },
+    "QCD_Edge": {
+      "n": 5973,
+      "mass_mean_gev": 144.73,
+      "tau32_mean": 0.7215
+    },
+    "Top_Core": {
+      "n": 7557,
+      "mass_mean_gev": 178.03,
+      "tau32_mean": 0.6313
+    },
+    "Top_Edge": {
+      "n": 7363,
+      "mass_mean_gev": 173.71,
+      "tau32_mean": 0.4593
+    }
+  },
+  "elapsed_seconds": 713.4
+}

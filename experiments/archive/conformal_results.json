@@ -1,0 +1,42 @@
+{
+  "arcface_s16_m05": {
+    "accuracy": 0.91708,
+    "q_hat": 0.356167733669281,
+    "target_coverage": 0.9,
+    "empirical_coverage": 0.90066,
+    "mean_set_size": 0.9688,
+    "frac_size_1": 0.9688
+  },
+  "arcface_s8_m00": {
+    "accuracy": 0.91762,
+    "q_hat": 0.3495575785636902,
+    "target_coverage": 0.9,
+    "empirical_coverage": 0.90018,
+    "mean_set_size": 0.9667,
+    "frac_size_1": 0.9667
+  },
+  "arcface_s32_m00": {
+    "accuracy": 0.91902,
+    "q_hat": 0.45755526423454285,
+    "target_coverage": 0.9,
+    "empirical_coverage": 0.89812,
+    "mean_set_size": 0.96292,
+    "frac_size_1": 0.96292
+  },
+  "linear_seed42": {
+    "accuracy": 0.91762,
+    "q_hat": 0.4273912310600281,
+    "target_coverage": 0.9,
+    "empirical_coverage": 0.90058,
+    "mean_set_size": 0.96778,
+    "frac_size_1": 0.96778
+  },
+  "coslinear_seed42": {
+    "accuracy": 0.91732,
+    "q_hat": 0.42289453744888306,
+    "target_coverage": 0.9,
+    "empirical_coverage": 0.89938,
+    "mean_set_size": 0.96664,
+    "frac_size_1": 0.96664
+  }
+}

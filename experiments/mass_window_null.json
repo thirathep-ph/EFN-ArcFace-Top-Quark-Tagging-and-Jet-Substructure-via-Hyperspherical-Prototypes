@@ -1,0 +1,47 @@
+{
+  "n_events": 50000,
+  "windows": [
+    {
+      "lo": 140,
+      "hi": 170,
+      "n": 10856,
+      "n_top": 8849,
+      "prevalence": 0.8151252763448784,
+      "majority_acc": 0.8151252763448784,
+      "mass_only_auc": 0.6962622008415229,
+      "mass_only_best_acc": 0.815677966101695,
+      "model_auc": 0.8873450213212959,
+      "model_acc": 0.8627487103905674,
+      "auc_gain_over_mass": 0.19108282047977299,
+      "acc_gain_over_majority": 0.04762343404568903
+    },
+    {
+      "lo": 150,
+      "hi": 200,
+      "n": 21937,
+      "n_top": 19484,
+      "prevalence": 0.8881797875735059,
+      "majority_acc": 0.8881797875735059,
+      "mass_only_auc": 0.5484215340371892,
+      "mass_only_best_acc": 0.8881797875735059,
+      "model_auc": 0.8788039093069183,
+      "model_acc": 0.9023567488717692,
+      "auc_gain_over_mass": 0.33038237526972913,
+      "acc_gain_over_majority": 0.014176961298263291
+    },
+    {
+      "lo": 100,
+      "hi": 200,
+      "n": 29993,
+      "n_top": 21896,
+      "prevalence": 0.7300370086353483,
+      "majority_acc": 0.7300370086353483,
+      "mass_only_auc": 0.8306824086820159,
+      "mass_only_best_acc": 0.8544327009635582,
+      "model_auc": 0.9386039448883602,
+      "model_acc": 0.8880405427933185,
+      "auc_gain_over_mass": 0.10792153620634426,
+      "acc_gain_over_majority": 0.1580035341579702
+    }
+  ]
+}

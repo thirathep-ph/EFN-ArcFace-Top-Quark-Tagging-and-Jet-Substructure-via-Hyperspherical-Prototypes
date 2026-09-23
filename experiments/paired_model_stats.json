@@ -1,0 +1,101 @@
+{
+  "config": {
+    "n_events": 404000,
+    "models": [
+      "arcface_s16_m05",
+      "linear_seed42",
+      "coslinear_seed42"
+    ],
+    "seed": 42
+  },
+  "per_model": {
+    "arcface_s16_m05": {
+      "n_events": 404000,
+      "accuracy": 0.9184059405940594,
+      "n_correct": 371036,
+      "ci95_normal": [
+        0.9175618209168552,
+        0.9192500602712637
+      ],
+      "ci95_clopper_pearson": [
+        0.9175575793397895,
+        0.9192482951890932
+      ],
+      "roc_auc": 0.9738673861440835,
+      "hanley_mcneil_se_auc": 0.000255624890984677
+    },
+    "linear_seed42": {
+      "n_events": 404000,
+      "accuracy": 0.9194504950495049,
+      "n_correct": 371458,
+      "ci95_normal": [
+        0.9186113191066515,
+        0.9202896709923584
+      ],
+      "ci95_clopper_pearson": [
+        0.9186070699479869,
+        0.9202878984271811
+      ],
+      "roc_auc": 0.9742648608632221,
+      "hanley_mcneil_se_auc": 0.0002536577084532414
+    },
+    "coslinear_seed42": {
+      "n_events": 404000,
+      "accuracy": 0.9197920792079208,
+      "n_correct": 371596,
+      "ci95_normal": [
+        0.9189545289556991,
+        0.9206296294601426
+      ],
+      "ci95_clopper_pearson": [
+        0.9189502773173697,
+        0.9206278544481893
+      ],
+      "roc_auc": 0.974812770971357,
+      "hanley_mcneil_se_auc": 0.0002509212922292797
+    }
+  },
+  "mcnemar_pairwise": {
+    "arcface_s16_m05_vs_linear_seed42": {
+      "b": 5090,
+      "c": 5512,
+      "n_discordant": 10602,
+      "chi2_cc": 16.717694774570834,
+      "p_chi2": 4.337455201728901e-05,
+      "p_exact_binomial": 4.328015781197013e-05
+    },
+    "arcface_s16_m05_vs_coslinear_seed42": {
+      "b": 4554,
+      "c": 5114,
+      "n_discordant": 9668,
+      "chi2_cc": 32.32116259826231,
+      "p_chi2": 1.3068228426661039e-08,
+      "p_exact_binomial": 1.295122974221999e-08
+    },
+    "linear_seed42_vs_coslinear_seed42": {
+      "b": 4755,
+      "c": 4893,
+      "n_discordant": 9648,
+      "chi2_cc": 1.94537728026534,
+      "p_chi2": 0.1630858649469677,
+      "p_exact_binomial": 0.16308242962899727
+    }
+  },
+  "power": {
+    "n_events": 404000,
+    "p_bar": 0.9192161716171617,
+    "detectable_diff_80pct_two_proportion": 0.0016986314558445378,
+    "per_group_n_for_cohens_d": {
+      "d=0.2": 392.44392561125,
+      "d=0.5": 62.79102809780001,
+      "d=0.8": 24.527745350703125,
+      "d=1.75": 5.125798212065307
+    },
+    "subclass_counts_from_interpretation": {
+      "qcd_core": 123322,
+      "qcd_edge": 78592,
+      "top_core": 101260,
+      "top_edge": 100826
+    }
+  }
+}

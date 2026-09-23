@@ -1,0 +1,61 @@
+{
+  "model": {
+    "architecture": "EFN + ArcFace",
+    "embedding_dim": 64,
+    "particle_dim": 128,
+    "s": 16.0,
+    "m": 0.5,
+    "warmup_epochs": 10,
+    "n_classes": 2,
+    "n_prototypes_per_class": 1
+  },
+  "training": {
+    "epochs": 50,
+    "batch_size": 128,
+    "accumulation_steps": 8,
+    "effective_batch_size": 1024,
+    "learning_rate": 0.001,
+    "optimizer": "Adam",
+    "scheduler": "OneCycleLR",
+    "max_lr": 0.002,
+    "mixed_precision": false,
+    "seed": 42,
+    "chunking": true,
+    "chunk_size": 100000
+  },
+  "data": {
+    "dataset": "Top Tagging Reference Dataset",
+    "n_train": 1211000,
+    "n_val": 403000,
+    "n_test": 404000,
+    "max_constituents": 200,
+    "features": ["E", "px", "py", "pz"]
+  },
+  "clustering": {
+    "method": "Spectral Clustering",
+    "affinity": "cosine",
+    "k_selection": "eigengap",
+    "max_k": 10,
+    "n_init": 10
+  },
+  "physics": {
+    "jet_algorithm": "cambridge_algorithm",
+    "jet_R": 2.0,
+    "softdrop_beta": 0.0,
+    "softdrop_zcut": 0.1,
+    "softdrop_R0": 2.0
+  },
+  "results": {
+    "test_accuracy": 0.9184,
+    "test_accuracy_ci": [0.9176, 0.9192],
+    "test_precision": 0.9009,
+    "test_recall": 0.9403,
+    "test_f1": 0.9202,
+    "n_params": 59072,
+    "centroid_mass_top_gev": 168.8,
+    "centroid_mass_qcd_gev": 63.5,
+    "n_subclasses_top": 2,
+    "n_subclasses_qcd": 2,
+    "source": "experiments/robustness_s16_m05 (checkpoint.pt 2026-06-24 + embeddings.npz 2026-07-03, test split n=404000)"
+  }
+}

@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/research/jet_tagging/media/videos/architecture/1080p30/partial_movie_files/Architecture/606393583_956508764_1452579566.mp4'
+file 'file:D:/research/jet_tagging/media/videos/architecture/1080p30/partial_movie_files/Architecture/1655731396_2737023867_4283137689.mp4'
+file 'file:D:/research/jet_tagging/media/videos/architecture/1080p30/partial_movie_files/Architecture/1655731396_1783281737_1350141545.mp4'
+file 'file:D:/research/jet_tagging/media/videos/architecture/1080p30/partial_movie_files/Architecture/1655731396_1474018842_3273406787.mp4'
+file 'file:D:/research/jet_tagging/media/videos/architecture/1080p30/partial_movie_files/Architecture/1655731396_2811497702_2167688529.mp4'
+file 'file:D:/research/jet_tagging/media/videos/architecture/1080p30/partial_movie_files/Architecture/1655731396_3271818395_1511349850.mp4'
+file 'file:D:/research/jet_tagging/media/videos/architecture/1080p30/partial_movie_files/Architecture/1655731396_2536641656_3865052013.mp4'
+file 'file:D:/research/jet_tagging/media/videos/architecture/1080p30/partial_movie_files/Architecture/1655731396_1043289055_1504224913.mp4'
+file 'file:D:/research/jet_tagging/media/videos/architecture/1080p30/partial_movie_files/Architecture/1655731396_3032165621_2289340644.mp4'
+file 'file:D:/research/jet_tagging/media/videos/architecture/1080p30/partial_movie_files/Architecture/1655731396_4244061973_3096870688.mp4'
+file 'file:D:/research/jet_tagging/media/videos/architecture/1080p30/partial_movie_files/Architecture/1655731396_4120172027_2389643207.mp4'

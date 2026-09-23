@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  jet-tagging:
+    build: .
+    container_name: jet_tagging_container
+    volumes:
+      - .:/app
+      # Mount data separately (large H5 files)
+      - ./data:/app/data
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    command: python scripts/train_arcface.py --quick --epochs 10

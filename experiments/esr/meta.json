@@ -1,0 +1,8 @@
+{
+  "n_events": 40000,
+  "seed": 42,
+  "n_components": 2,
+  "target": "exact-plane: least-squares L: pooled phi (128-d) -> (cos_QCD, cos_Top); per-particle t_i = L @ phi(x_i)",
+  "plane_r2": 0.6770784866641277,
+  "n_particles": 1000000
+}

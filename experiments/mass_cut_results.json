@@ -1,0 +1,26 @@
+{
+  "n_events": 404000,
+  "cuts_ge": {
+    "100_GeV": {
+      "accuracy": 0.8164579207920792
+    },
+    "120_GeV": {
+      "accuracy": 0.8682128712871288
+    },
+    "140_GeV": {
+      "accuracy": 0.8890693069306931
+    },
+    "150_GeV": {
+      "accuracy": 0.8774950495049505
+    },
+    "160_GeV": {
+      "accuracy": 0.8378539603960397
+    },
+    "172_GeV": {
+      "accuracy": 0.7282623762376238
+    }
+  },
+  "best_cut_GeV": 140,
+  "best_accuracy": 0.8890693069306931,
+  "note": "Simple mass-only classifier (predict Top if mass >= cut, else QCD). Best cut ~140 GeV reaches 88.9%, below the EFN+ArcFace model's 91.84%."
+}

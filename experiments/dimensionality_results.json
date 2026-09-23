@@ -1,0 +1,9 @@
+{
+  "twonn_intrinsic_dimension": 2.1748726764968644,
+  "participation_ratio": 1.377616574805393,
+  "class_center_angular_distance_rad": 0.7611464887177275,
+  "class_center_angular_distance_deg": 43.610481394727714,
+  "class_center_cosine_similarity": 0.7240456938743591,
+  "n_events": 50000,
+  "embedding_dim": 64
+}

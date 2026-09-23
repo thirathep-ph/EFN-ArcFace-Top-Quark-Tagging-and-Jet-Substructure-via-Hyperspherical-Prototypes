@@ -1,0 +1,32 @@
+{
+  "exp1_trained_on_noise": {
+    "tag": "exp1",
+    "pred_0": {
+      "n": 20000,
+      "k_star": 2,
+      "counts": [
+        11755,
+        8245
+      ]
+    },
+    "pred_1": {
+      "n": 0,
+      "k_star": null
+    }
+  },
+  "exp3_untrained_on_real": {
+    "tag": "exp3",
+    "pred_0": {
+      "n": 50000,
+      "k_star": 2,
+      "counts": [
+        25338,
+        24662
+      ]
+    },
+    "pred_1": {
+      "n": 0,
+      "k_star": null
+    }
+  }
+}

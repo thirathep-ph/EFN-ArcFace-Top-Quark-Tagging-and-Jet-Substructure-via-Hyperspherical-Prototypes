@@ -1,0 +1,60 @@
+{
+  "baseline_accuracy": 0.923,
+  "n_events": 2000,
+  "results": {
+    "beta=0, z_cut=0.05": {
+      "beta": 0,
+      "z_cut": 0.05,
+      "accuracy": 0.923,
+      "time": 34.57784390449524
+    },
+    "beta=0, z_cut=0.1": {
+      "beta": 0,
+      "z_cut": 0.1,
+      "accuracy": 0.923,
+      "time": 35.926513671875
+    },
+    "beta=0, z_cut=0.2": {
+      "beta": 0,
+      "z_cut": 0.2,
+      "accuracy": 0.923,
+      "time": 41.53494906425476
+    },
+    "beta=1, z_cut=0.05": {
+      "beta": 1,
+      "z_cut": 0.05,
+      "accuracy": 0.923,
+      "time": 40.32727527618408
+    },
+    "beta=1, z_cut=0.1": {
+      "beta": 1,
+      "z_cut": 0.1,
+      "accuracy": 0.923,
+      "time": 43.00325131416321
+    },
+    "beta=1, z_cut=0.2": {
+      "beta": 1,
+      "z_cut": 0.2,
+      "accuracy": 0.923,
+      "time": 46.44156742095947
+    },
+    "beta=2, z_cut=0.05": {
+      "beta": 2,
+      "z_cut": 0.05,
+      "accuracy": 0.923,
+      "time": 35.81800723075867
+    },
+    "beta=2, z_cut=0.1": {
+      "beta": 2,
+      "z_cut": 0.1,
+      "accuracy": 0.923,
+      "time": 36.152015924453735
+    },
+    "beta=2, z_cut=0.2": {
+      "beta": 2,
+      "z_cut": 0.2,
+      "accuracy": 0.923,
+      "time": 39.354371786117554
+    }
+  }
+}

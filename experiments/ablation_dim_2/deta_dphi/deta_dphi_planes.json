@@ -1,0 +1,42 @@
+{
+  "n_total": 404000,
+  "n_physics": 11934,
+  "panels": {
+    "class_qcd": {
+      "label": "QCD (all)",
+      "n_total": 201914,
+      "n_plotted": 5965,
+      "rep_idx": 26073
+    },
+    "class_top": {
+      "label": "Top (all)",
+      "n_total": 202086,
+      "n_plotted": 5969,
+      "rep_idx": 6549
+    },
+    "subclass_qcd_core": {
+      "label": "QCD-Core",
+      "n_total": 121570,
+      "n_plotted": 3168,
+      "rep_idx": 121783
+    },
+    "subclass_qcd_edge": {
+      "label": "QCD-Edge",
+      "n_total": 80344,
+      "n_plotted": 2797,
+      "rep_idx": 16538
+    },
+    "subclass_top_core": {
+      "label": "Top-Core",
+      "n_total": 102197,
+      "n_plotted": 2998,
+      "rep_idx": 84770
+    },
+    "subclass_top_edge": {
+      "label": "Top-Edge",
+      "n_total": 99889,
+      "n_plotted": 2971,
+      "rep_idx": 110361
+    }
+  }
+}

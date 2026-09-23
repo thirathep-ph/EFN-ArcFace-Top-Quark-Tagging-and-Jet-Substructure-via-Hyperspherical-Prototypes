@@ -1,0 +1,26 @@
+{
+  "baselines_coslinear_seed_42": {
+    "accuracy": 0.9197945544554456,
+    "n": 404000
+  },
+  "baselines_coslinear_seed_123": {
+    "accuracy": 0.9203267326732674,
+    "n": 404000
+  },
+  "baselines_coslinear_seed_7": {
+    "accuracy": 0.9197747524752475,
+    "n": 404000
+  },
+  "robustness_s22_m05": {
+    "accuracy": 0.9182425742574257,
+    "n": 404000
+  },
+  "robustness_s22_seed_123": {
+    "accuracy": 0.9180247524752475,
+    "n": 404000
+  },
+  "robustness_s22_seed_7": {
+    "accuracy": 0.9181584158415842,
+    "n": 404000
+  }
+}

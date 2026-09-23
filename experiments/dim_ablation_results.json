@@ -1,0 +1,81 @@
+{
+  "ablation": {
+    "dir": "D:\\research\\jet_tagging\\experiments\\ablation_dim_2",
+    "config": {
+      "embedding_dim": 2,
+      "scale": 16.0,
+      "margin": 0.5,
+      "particle_dim": 128
+    },
+    "accuracy": 0.918948,
+    "accuracy_ci95": [
+      0.918106,
+      0.91979
+    ],
+    "confusion_matrix": [
+      [
+        181051,
+        20863
+      ],
+      [
+        11882,
+        190204
+      ]
+    ],
+    "precision": 0.901155,
+    "recall": 0.941203,
+    "f1": 0.920744,
+    "roc_auc": 0.974109,
+    "rejection_50tpr": 124.792,
+    "n_events": 404000
+  },
+  "reference": {
+    "dir": "D:\\research\\jet_tagging\\experiments\\robustness_s16_m05",
+    "config": {
+      "embedding_dim": 64,
+      "scale": 16.0,
+      "margin": 0.5,
+      "particle_dim": 128
+    },
+    "accuracy": 0.918403,
+    "accuracy_ci95": [
+      0.917559,
+      0.919248
+    ],
+    "confusion_matrix": [
+      [
+        181017,
+        20897
+      ],
+      [
+        12068,
+        190018
+      ]
+    ],
+    "precision": 0.900922,
+    "recall": 0.940283,
+    "f1": 0.920182,
+    "roc_auc": 0.973867,
+    "rejection_50tpr": 123.646,
+    "n_events": 404000
+  },
+  "comparison": {
+    "delta_accuracy": 0.000545,
+    "delta_auc": 0.000242,
+    "rejection_50tpr_diff": 1.146,
+    "mcnemar": {
+      "d2_correct_ref_wrong": 4908,
+      "d2_wrong_ref_correct": 4756,
+      "chi2_cc": 2.359375,
+      "p": 0.1245320734001149
+    },
+    "gate_criteria": {
+      "abs_delta_acc_lt_0.2pp": true,
+      "mcnemar_p_gt_0.05": true,
+      "abs_delta_auc_lt_0.003": true,
+      "rej50_diff_lt_30": true
+    },
+    "equivalent": true
+  },
+  "elapsed_seconds": 101.4
+}

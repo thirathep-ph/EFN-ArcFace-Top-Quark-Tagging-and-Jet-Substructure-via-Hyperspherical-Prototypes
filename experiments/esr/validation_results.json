@@ -1,0 +1,28 @@
+{
+  "n_events": 404000,
+  "equations": {
+    "phi_t1": "-1.7139447 * (square(square(x1) + (square(x1 / 0.98846203) + 0.24245133)) + (abs(x1) + square(-1.918707 * (-0.01668022 - x0))))",
+    "phi_t1_complexity": 22,
+    "phi_t2": "2.3139312 - exp(exp(square(x0) + ((x1 * x1) + -0.07603101)))",
+    "phi_t2_complexity": 12,
+    "readout": "((square(1.1414856 - tanh((abs(x0) / x0) / (x0 + 0.72863203))) + 12.912096) * 1.1062614) * x1",
+    "readout_complexity": 18
+  },
+  "fit_loss": {
+    "phi_t1": 0.09279828,
+    "phi_t2": 0.18653816,
+    "readout": 22.818275
+  },
+  "accuracy_plane": 0.7100990099009901,
+  "auc_plane": 0.9091167713784836,
+  "rejection_50tpr": 12.275153504772327,
+  "accuracy_readout": 0.4997871287128713,
+  "auc_readout": 0.14362041371474807,
+  "agreement_with_nn_40k": 0.271425,
+  "speed_benchmark_per_particle": {
+    "nn_phi_mlp_seconds": 0.38471121788024903,
+    "symbolic_seconds": 0.022100210189819336,
+    "speedup_x": 17.40758185446896
+  },
+  "total_symbolic_eval_seconds_404k": 3.5970115661621094
+}

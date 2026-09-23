@@ -1,0 +1,41 @@
+{
+  "n_events": 404000,
+  "partition": "predicted_labels_primary",
+  "method": "global random orthogonal rotation, same pipeline per predicted class",
+  "reference_k": {
+    "0": 2,
+    "1": 2
+  },
+  "seeds": {
+    "42": {
+      "QCD": {
+        "k_star": 2,
+        "ari_vs_unref": 1.0
+      },
+      "Top": {
+        "k_star": 2,
+        "ari_vs_unref": 1.0
+      }
+    },
+    "123": {
+      "QCD": {
+        "k_star": 2,
+        "ari_vs_unref": 1.0
+      },
+      "Top": {
+        "k_star": 2,
+        "ari_vs_unref": 1.0
+      }
+    },
+    "7": {
+      "QCD": {
+        "k_star": 2,
+        "ari_vs_unref": 1.0
+      },
+      "Top": {
+        "k_star": 2,
+        "ari_vs_unref": 1.0
+      }
+    }
+  }
+}

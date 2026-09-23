@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/research/jet_tagging/media/videos/hypersphere/1080p30/partial_movie_files/Hypersphere/606393583_1195877403_2812350579.mp4'
+file 'file:D:/research/jet_tagging/media/videos/hypersphere/1080p30/partial_movie_files/Hypersphere/1655731396_2855498899_3043757290.mp4'
+file 'file:D:/research/jet_tagging/media/videos/hypersphere/1080p30/partial_movie_files/Hypersphere/1655731396_3143385945_564328790.mp4'
+file 'file:D:/research/jet_tagging/media/videos/hypersphere/1080p30/partial_movie_files/Hypersphere/1655731396_244246053_2430635486.mp4'
+file 'file:D:/research/jet_tagging/media/videos/hypersphere/1080p30/partial_movie_files/Hypersphere/1655731396_3828299377_4179628621.mp4'
+file 'file:D:/research/jet_tagging/media/videos/hypersphere/1080p30/partial_movie_files/Hypersphere/1655731396_1740668991_55050689.mp4'
+file 'file:D:/research/jet_tagging/media/videos/hypersphere/1080p30/partial_movie_files/Hypersphere/1655731396_67475882_2987383213.mp4'
+file 'file:D:/research/jet_tagging/media/videos/hypersphere/1080p30/partial_movie_files/Hypersphere/1655731396_4016680714_2719506380.mp4'
+file 'file:D:/research/jet_tagging/media/videos/hypersphere/1080p30/partial_movie_files/Hypersphere/1655731396_593820020_2849231919.mp4'

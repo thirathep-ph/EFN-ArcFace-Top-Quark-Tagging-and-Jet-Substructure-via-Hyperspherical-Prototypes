@@ -1,0 +1,28 @@
+{
+  "n_events": 404000,
+  "partition": "predicted_labels_primary",
+  "subclasses": {
+    "QCD": {
+      "k": 2,
+      "n_core": 117786,
+      "n_edge": 75299,
+      "mass_mean_core": 62.387298583984375,
+      "mass_mean_edge": 133.58245849609375,
+      "mass_d": -2.4743592651590527,
+      "tau32_mean_core": 0.7413418889045715,
+      "tau32_mean_edge": 0.7319608330726624,
+      "tau32_d": 0.08900437326628217
+    },
+    "Top": {
+      "k": 2,
+      "n_core": 111029,
+      "n_edge": 99886,
+      "mass_mean_core": 180.5863800048828,
+      "mass_mean_edge": 173.65655517578125,
+      "mass_d": 0.2890121524462143,
+      "tau32_mean_core": 0.6329767107963562,
+      "tau32_mean_edge": 0.46242254972457886,
+      "tau32_d": 1.5788214154086633
+    }
+  }
+}

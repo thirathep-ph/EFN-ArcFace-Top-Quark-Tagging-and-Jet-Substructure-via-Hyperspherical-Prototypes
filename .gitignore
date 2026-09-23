@@ -1,0 +1,122 @@
+# ============================================================
+# .gitignore — Jet Tagging Project
+# Philosophy: Track CODE, ignore DATA, RESULTS & BUILD ARTIFACTS
+# ============================================================
+
+# ===== OPENCODE (personal assistant config) =====
+.opencode/
+
+# ===== DATA (never commit — download separately) =====
+data/top_tagging/*.h5
+data/top_tagging/*.hdf5
+data/jetnet/*.hdf5
+
+# ===== RESULTS (regenerable from code + data) =====
+experiments/
+results/
+main_arcface/
+checkpoints/
+
+# ===== MODEL ARTIFACTS (large, trained) =====
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+
+# ===== GENERATED PLOTS (regenerable from scripts) =====
+*.png
+*.pdf
+*.svg
+!paper/figures/*.png
+!paper_arxiv/figures/*.png
+!docs/infographic.png
+
+# ===== PYTHON =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ===== VIRTUAL ENVIRONMENTS =====
+.venv*/
+venv*/
+env/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===== JUPYTER =====
+.ipynb_checkpoints/
+
+# ===== MISC =====
+*.log
+*.err
+*.bak*
+*_output.txt
+*_out.txt
+$null
+
+# ===== PAPER BUILD ARTIFACTS (source .tex is tracked) =====
+paper/main.pdf
+paper/submission.zip
+paper/submission/
+paper/tables/
+paper/overleaf/
+paper/overleaf.zip
+
+# ===== LATEX BUILD ARTIFACTS =====
+*.aux
+*.bbl
+*.blg
+*.out
+*.nav
+*.snm
+*.toc
+*.vrb
+*.synctex.gz
+
+# ===== REPRODUCIBILITY (small result JSONs ARE tracked) =====
+# experiments/ checkpoints/plots stay ignored (regenerable);
+# the small result JSONs back every number in the paper, so they are versioned.
+*.onnx
+!experiments/
+!experiments/**/*.json
+
+# ===== PySR / symbolic-regression scratch (outputs/) =====
+outputs/
+
+# training run error logs
+experiments/*.log.err
+
+# ===== AGENTS / SKILLS (local) =====
+.agents/
+skills-lock.json
+paper/arxiv_template.tex
+paper_arxiv/*.pdf
+paper_arxiv/*.aux
+paper_arxiv/*.bbl
+paper_arxiv/*.blg
+paper_arxiv/*.out
+paper_arxiv/*.log
+paper_arxiv.tar.gz
+paper_arxiv.pdf
+
+# ===== MANIM SLIDES (source .py is tracked; renders are regenerable) =====
+manim_slides/media/
+manim_slides/slides/
+manim_slides/deck.html
+manim_slides/deck_assets/
+slides/files/

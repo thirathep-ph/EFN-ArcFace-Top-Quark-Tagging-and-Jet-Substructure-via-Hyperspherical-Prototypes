@@ -1,0 +1,159 @@
+{
+  "partition": "predicted_labels_primary",
+  "QCD": [
+    {
+      "config": "cosine-matrixfree-primary",
+      "k_star": 2,
+      "ari_vs_primary": 1.0,
+      "n0": 3641,
+      "n1": 2359
+    },
+    {
+      "config": "nearest_neighbors_10",
+      "k_star": 2,
+      "ari_vs_primary": 0.931,
+      "n0": 3536,
+      "n1": 2464
+    },
+    {
+      "config": "nearest_neighbors_20",
+      "k_star": 2,
+      "ari_vs_primary": 0.85,
+      "n0": 3407,
+      "n1": 2593
+    },
+    {
+      "config": "nearest_neighbors_30",
+      "k_star": 2,
+      "ari_vs_primary": 0.785,
+      "n0": 3299,
+      "n1": 2701
+    },
+    {
+      "config": "rbf_gamma0.5",
+      "k_star": 2,
+      "ari_vs_primary": 0.827,
+      "n0": 2089,
+      "n1": 3911
+    },
+    {
+      "config": "rbf_gamma1.0",
+      "k_star": 2,
+      "ari_vs_primary": 0.787,
+      "n0": 2022,
+      "n1": 3978
+    },
+    {
+      "config": "HC_ward_euclidean",
+      "k_star": 2,
+      "ari_vs_primary": 0.945,
+      "n0": 2442,
+      "n1": 3558
+    },
+    {
+      "config": "HC_complete_cosine",
+      "k_star": 2,
+      "ari_vs_primary": 0.931,
+      "n0": 2464,
+      "n1": 3536
+    },
+    {
+      "config": "HC_average_cosine",
+      "k_star": 2,
+      "ari_vs_primary": 0.736,
+      "n0": 4065,
+      "n1": 1935
+    },
+    {
+      "config": "HC_complete_euclidean",
+      "k_star": 2,
+      "ari_vs_primary": 0.931,
+      "n0": 2464,
+      "n1": 3536
+    }
+  ],
+  "QCD_summary": {
+    "n_configs": 10,
+    "min_ari": 0.736,
+    "max_ari": 1.0,
+    "all_k_star_2": true
+  },
+  "Top": [
+    {
+      "config": "cosine-matrixfree-primary",
+      "k_star": 2,
+      "ari_vs_primary": 1.0,
+      "n0": 3207,
+      "n1": 2793
+    },
+    {
+      "config": "nearest_neighbors_10",
+      "k_star": 2,
+      "ari_vs_primary": 0.84,
+      "n0": 3044,
+      "n1": 2956
+    },
+    {
+      "config": "nearest_neighbors_20",
+      "k_star": 2,
+      "ari_vs_primary": 0.892,
+      "n0": 3040,
+      "n1": 2960
+    },
+    {
+      "config": "nearest_neighbors_30",
+      "k_star": 2,
+      "ari_vs_primary": 0.864,
+      "n0": 2996,
+      "n1": 3004
+    },
+    {
+      "config": "rbf_gamma0.5",
+      "k_star": 2,
+      "ari_vs_primary": 0.874,
+      "n0": 3402,
+      "n1": 2598
+    },
+    {
+      "config": "rbf_gamma1.0",
+      "k_star": 2,
+      "ari_vs_primary": 0.84,
+      "n0": 3457,
+      "n1": 2543
+    },
+    {
+      "config": "HC_ward_euclidean",
+      "k_star": 2,
+      "ari_vs_primary": 0.392,
+      "n0": 4327,
+      "n1": 1673
+    },
+    {
+      "config": "HC_complete_cosine",
+      "k_star": 2,
+      "ari_vs_primary": 0.704,
+      "n0": 2311,
+      "n1": 3689
+    },
+    {
+      "config": "HC_average_cosine",
+      "k_star": 2,
+      "ari_vs_primary": 0.884,
+      "n0": 2614,
+      "n1": 3386
+    },
+    {
+      "config": "HC_complete_euclidean",
+      "k_star": 2,
+      "ari_vs_primary": 0.704,
+      "n0": 2311,
+      "n1": 3689
+    }
+  ],
+  "Top_summary": {
+    "n_configs": 10,
+    "min_ari": 0.392,
+    "max_ari": 1.0,
+    "all_k_star_2": true
+  }
+}

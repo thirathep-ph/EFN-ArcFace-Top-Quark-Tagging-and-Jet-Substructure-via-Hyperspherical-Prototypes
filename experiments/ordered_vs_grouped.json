@@ -1,0 +1,106 @@
+{
+  "n_events": 50000,
+  "accuracy": 0.91708,
+  "density": {
+    "n_bins": 60,
+    "min_count": 279,
+    "max_count": 11580,
+    "n_empty": 0,
+    "valleys": []
+  },
+  "within_slopes": {
+    "QCD-Core_mass": {
+      "slope": 134.620511,
+      "r2": 0.0241,
+      "spearman": -0.0217,
+      "n": 14622
+    },
+    "QCD-Edge_mass": {
+      "slope": 92.158098,
+      "r2": 0.4176,
+      "spearman": 0.7982,
+      "n": 9408
+    },
+    "Top-Core_tau32": {
+      "slope": -0.264507,
+      "r2": 0.1787,
+      "spearman": -0.4273,
+      "n": 13783
+    },
+    "Top-Edge_tau32": {
+      "slope": -0.519122,
+      "r2": 0.3026,
+      "spearman": -0.5592,
+      "n": 12187
+    },
+    "QCD_all_mass": {
+      "slope": 118.257487,
+      "r2": 0.7102,
+      "spearman": 0.7481,
+      "n": 24030
+    },
+    "Top_all_tau32": {
+      "slope": -0.344467,
+      "r2": 0.5182,
+      "spearman": -0.7316,
+      "n": 25970
+    },
+    "all_margin": {
+      "slope": 11.886488,
+      "r2": 1.0,
+      "spearman": 1.0,
+      "n": 50000
+    }
+  },
+  "mixtures": {
+    "QCD_interface_mass": {
+      "1": {
+        "bic": 20956.17,
+        "means": [
+          83.2774
+        ],
+        "weights": [
+          1.0
+        ]
+      },
+      "2": {
+        "bic": 20399.13,
+        "means": [
+          56.0538,
+          92.6175
+        ],
+        "weights": [
+          0.2554,
+          0.7446
+        ]
+      },
+      "delta_bic_2minus1": -557.04
+    },
+    "QCD_interface_n": 2400,
+    "Top_interface_tau32": {
+      "1": {
+        "bic": -4859.6,
+        "means": [
+          0.5512
+        ],
+        "weights": [
+          1.0
+        ]
+      },
+      "2": {
+        "bic": -4834.46,
+        "means": [
+          0.4868,
+          0.6113
+        ],
+        "weights": [
+          0.4828,
+          0.5172
+        ]
+      },
+      "delta_bic_2minus1": 25.14
+    },
+    "Top_interface_n": 2598
+  },
+  "elapsed_s": 10.8
+}

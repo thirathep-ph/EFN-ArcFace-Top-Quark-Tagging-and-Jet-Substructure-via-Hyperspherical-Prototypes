@@ -1,0 +1,20 @@
+{
+  "ArcFace (s=16, m=0.5)_QCD_Core_N": 14622,
+  "ArcFace (s=16, m=0.5)_QCD_Edge_N": 9408,
+  "ArcFace (s=16, m=0.5)_Top_Core_N": 12187,
+  "ArcFace (s=16, m=0.5)_Top_Edge_N": 13783,
+  "ArcFace (s=16, m=0.5)_norms_median": 7.7279157638549805,
+  "ArcFace (s=16, m=0.5)_norms_std": 4.937681674957275,
+  "CosLinear (m=0)_QCD_Core_N": 12222,
+  "CosLinear (m=0)_QCD_Edge_N": 11792,
+  "CosLinear (m=0)_Top_Core_N": 10574,
+  "CosLinear (m=0)_Top_Edge_N": 15412,
+  "CosLinear (m=0)_norms_median": 5.4728827476501465,
+  "CosLinear (m=0)_norms_std": 3.865769386291504,
+  "Linear (cross-entropy)_QCD_Core_N": 5794,
+  "Linear (cross-entropy)_QCD_Edge_N": 18301,
+  "Linear (cross-entropy)_Top_Core_N": 4949,
+  "Linear (cross-entropy)_Top_Edge_N": 20956,
+  "Linear (cross-entropy)_norms_median": 3.6948933601379395,
+  "Linear (cross-entropy)_norms_std": 2.4040215015411377
+}

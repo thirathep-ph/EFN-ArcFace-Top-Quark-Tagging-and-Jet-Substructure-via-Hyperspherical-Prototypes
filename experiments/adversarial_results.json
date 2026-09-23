@@ -1,0 +1,13 @@
+{
+  "n_events": 20000,
+  "seed": 42,
+  "eps": 0.01,
+  "pgd_alpha": 0.002,
+  "pgd_steps": 10,
+  "clean_accuracy": 0.9218,
+  "fgsm_accuracy": 0.9146,
+  "fgsm_drop": 0.007199999999999984,
+  "pgd_accuracy": 0.91435,
+  "pgd_drop": 0.007449999999999957,
+  "checkpoint": "D:\\research\\jet_tagging\\experiments\\robustness_s16_m05\\checkpoint.pt"
+}

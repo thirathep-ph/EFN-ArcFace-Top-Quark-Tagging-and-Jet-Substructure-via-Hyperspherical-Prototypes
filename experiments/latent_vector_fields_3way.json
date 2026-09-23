@@ -1,0 +1,181 @@
+{
+  "n_events": 50000,
+  "grid": 13,
+  "neighbors": 320,
+  "scatter_max_per_head": 4000,
+  "scatter_seed": 123,
+  "heads": {
+    "ArcFace": {
+      "model_dir": "D:\\research\\jet_tagging\\experiments\\robustness_s16_m05",
+      "accuracy": 0.91708,
+      "pca_variance": [
+        0.8361,
+        0.1639
+      ],
+      "pca_cum2": 1.0,
+      "axis_flips": [
+        -1.0,
+        -1.0
+      ],
+      "subclass_counts": {
+        "0": 14622,
+        "1": 9408,
+        "2": 13783,
+        "3": 12187
+      },
+      "fields": {
+        "mass": {
+          "n_cells": 152,
+          "median_r2": 0.0063,
+          "mean_unit": [
+            0.9872,
+            0.1594
+          ],
+          "directional_concentration": 0.3922,
+          "cos_qcd_core_edge": 0.8939,
+          "cos_top_core_edge": 0.2892,
+          "cos_class_qcd_top": 0.9495
+        },
+        "tau32": {
+          "n_cells": 152,
+          "median_r2": 0.0039,
+          "mean_unit": [
+            0.9991,
+            0.0414
+          ],
+          "directional_concentration": 0.1484,
+          "cos_qcd_core_edge": 0.8345,
+          "cos_top_core_edge": 0.4005,
+          "cos_class_qcd_top": 0.98
+        },
+        "margin": {
+          "n_cells": 152,
+          "median_r2": 1.0,
+          "mean_unit": [
+            0.9103,
+            -0.414
+          ],
+          "directional_concentration": 0.9997,
+          "cos_qcd_core_edge": 0.496,
+          "cos_top_core_edge": 0.771,
+          "cos_class_qcd_top": 0.9643
+        }
+      }
+    },
+    "CosLinear": {
+      "model_dir": "D:\\research\\jet_tagging\\experiments\\baselines_coslinear_seed_42",
+      "accuracy": 0.91732,
+      "pca_variance": [
+        0.3794,
+        0.1089
+      ],
+      "pca_cum2": 0.4883,
+      "axis_flips": [
+        1.0,
+        1.0
+      ],
+      "subclass_counts": {
+        "0": 12222,
+        "1": 11792,
+        "2": 15412,
+        "3": 10574
+      },
+      "fields": {
+        "mass": {
+          "n_cells": 152,
+          "median_r2": 0.0259,
+          "mean_unit": [
+            0.9976,
+            -0.069
+          ],
+          "directional_concentration": 0.5191,
+          "cos_qcd_core_edge": -0.9234,
+          "cos_top_core_edge": -0.5501,
+          "cos_class_qcd_top": 0.982
+        },
+        "tau32": {
+          "n_cells": 152,
+          "median_r2": 0.01,
+          "mean_unit": [
+            -0.9972,
+            -0.0744
+          ],
+          "directional_concentration": 0.463,
+          "cos_qcd_core_edge": 0.9688,
+          "cos_top_core_edge": 0.425,
+          "cos_class_qcd_top": -0.9989
+        },
+        "margin": {
+          "n_cells": 152,
+          "median_r2": 0.1661,
+          "mean_unit": [
+            0.9681,
+            0.2506
+          ],
+          "directional_concentration": 0.9193,
+          "cos_qcd_core_edge": -0.9974,
+          "cos_top_core_edge": -0.2572,
+          "cos_class_qcd_top": 0.9912
+        }
+      }
+    },
+    "Linear": {
+      "model_dir": "D:\\research\\jet_tagging\\experiments\\baselines_linear_seed_42",
+      "accuracy": 0.91762,
+      "pca_variance": [
+        0.8306,
+        0.0688
+      ],
+      "pca_cum2": 0.8994,
+      "axis_flips": [
+        -1.0,
+        -1.0
+      ],
+      "subclass_counts": {
+        "0": 18301,
+        "1": 5794,
+        "2": 20956,
+        "3": 4949
+      },
+      "fields": {
+        "mass": {
+          "n_cells": 152,
+          "median_r2": 0.0228,
+          "mean_unit": [
+            0.9882,
+            -0.1529
+          ],
+          "directional_concentration": 0.1743,
+          "cos_qcd_core_edge": 0.0953,
+          "cos_top_core_edge": -0.8102,
+          "cos_class_qcd_top": 0.9755
+        },
+        "tau32": {
+          "n_cells": 152,
+          "median_r2": 0.0131,
+          "mean_unit": [
+            -0.6171,
+            0.7869
+          ],
+          "directional_concentration": 0.6296,
+          "cos_qcd_core_edge": 0.6106,
+          "cos_top_core_edge": 0.9921,
+          "cos_class_qcd_top": -0.5621
+        },
+        "margin": {
+          "n_cells": 152,
+          "median_r2": 0.3779,
+          "mean_unit": [
+            0.9895,
+            0.1442
+          ],
+          "directional_concentration": 0.9644,
+          "cos_qcd_core_edge": 0.3835,
+          "cos_top_core_edge": -0.6022,
+          "cos_class_qcd_top": 0.9971
+        }
+      }
+    }
+  },
+  "elapsed_s": 111.1
+}

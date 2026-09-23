@@ -1,0 +1,14 @@
+{
+  "ArcFace (s=16, m=0.5)_QCD_Core_N": 15294,
+  "ArcFace (s=16, m=0.5)_QCD_Edge_N": 9926,
+  "ArcFace (s=16, m=0.5)_Top_Core_N": 12294,
+  "ArcFace (s=16, m=0.5)_Top_Edge_N": 12486,
+  "ArcFace (s=16, m=0.5)_norms_median": 7.7279157638549805,
+  "ArcFace (s=16, m=0.5)_norms_std": 4.937681674957275,
+  "Linear (cross-entropy)_QCD_Core_N": 22696,
+  "Linear (cross-entropy)_QCD_Edge_N": 2524,
+  "Linear (cross-entropy)_Top_Core_N": 21540,
+  "Linear (cross-entropy)_Top_Edge_N": 3240,
+  "Linear (cross-entropy)_norms_median": 3.6948933601379395,
+  "Linear (cross-entropy)_norms_std": 2.4040215015411377
+}

@@ -1,0 +1,32 @@
+{
+  "n_events": 5000,
+  "epsilon": 0.01,
+  "alpha": 0.002,
+  "n_steps": 10,
+  "clean_accuracy": 0.915,
+  "pgd_accuracy": 0.9148,
+  "accuracy_drop": 0.000200000000000089,
+  "flip_rate": 0.0002,
+  "epsilon_sweep": [
+    {
+      "epsilon": 0.001,
+      "accuracy": 0.915
+    },
+    {
+      "epsilon": 0.005,
+      "accuracy": 0.915
+    },
+    {
+      "epsilon": 0.01,
+      "accuracy": 0.9148
+    },
+    {
+      "epsilon": 0.02,
+      "accuracy": 0.914
+    },
+    {
+      "epsilon": 0.05,
+      "accuracy": 0.9126
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "n_events": 5000,
+  "pytorch_accuracy": 0.915,
+  "onnx_status": "nan_detected",
+  "onnx_accuracy": 0.514,
+  "accuracy_difference": 0.401,
+  "prediction_agreement": 0.4854,
+  "mean_logit_difference": NaN,
+  "pytorch_time_ms_per_event": 0.4348464012145996,
+  "onnx_time_ms_per_event": 1.7976018428802492,
+  "speedup": 0.24190362450778138,
+  "onnx_file_size_mb": 0.24231815338134766
+}

@@ -1,0 +1,37 @@
+{
+  "partition": "predicted_labels_primary",
+  "cls0_ward_ari": 0.5563375441826465,
+  "cls0_ward_counts": [
+    5875,
+    2125
+  ],
+  "cls0_complete_ari": 0.714782317814937,
+  "cls0_complete_counts": [
+    3747,
+    4253
+  ],
+  "cls0_sc_k": 2,
+  "cls0_sc_counts": [
+    4871,
+    3129
+  ],
+  "cls1_ward_ari": 0.49627196106814125,
+  "cls1_ward_counts": [
+    5467,
+    2533
+  ],
+  "cls1_complete_ari": 0.14359428980048278,
+  "cls1_complete_counts": [
+    6759,
+    1241
+  ],
+  "cls1_sc_k": 2,
+  "cls1_sc_counts": [
+    3714,
+    4286
+  ],
+  "power_required_n_per_group_d0.2": 393,
+  "power_required_n_per_group_d0.5": 64,
+  "n_per_class": 8000,
+  "note": "ARI vs spectral on 8k-per-class subsample (power >>393). Dendrogram gap largest at k=2 for both."
+}
