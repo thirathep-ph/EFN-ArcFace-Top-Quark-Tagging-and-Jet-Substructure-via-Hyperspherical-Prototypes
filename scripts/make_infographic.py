@@ -69,10 +69,10 @@ h1{{font-family:var(--f-d);font-size:46px;line-height:1.08;margin:10px 0 8px;fon
 .hero .v small{{font-size:16px;font-weight:normal}}
 .hero .v2{{font-family:var(--f-m);font-size:17px;margin-top:4px}}
 .hero .l{{font-size:12.5px;color:#c9c9d2;margin-top:2px}}
-.tools{{margin-top:14px;display:flex;flex-wrap:wrap;gap:7px}}
+.tools{{margin-top:14px;display:grid;grid-template-columns:repeat(3,1fr);gap:7px}}
 .tool{{border:1px solid var(--line);background:#fff;padding:5px 9px;font-size:12px}}
-.tool b{{font-family:var(--f-m)}}
-.tool span{{color:var(--mut);margin-left:6px}}
+.tool b{{font-family:var(--f-m);display:block}}
+.tool span{{color:var(--mut);display:block;margin-top:1px}}
 .foot{{margin-top:auto;font-size:11.5px;color:var(--mut);line-height:1.5;border-top:1px solid var(--line);padding-top:10px}}
 .right{{flex:1;padding:28px 32px;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:18px}}
 .panel{{background:#fff;border:1px solid var(--line);display:flex;flex-direction:column;overflow:hidden}}
