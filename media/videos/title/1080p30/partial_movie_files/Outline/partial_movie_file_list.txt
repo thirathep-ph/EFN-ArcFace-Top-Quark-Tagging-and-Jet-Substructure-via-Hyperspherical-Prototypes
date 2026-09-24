@@ -1,9 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:D:/research/jet_tagging/media/videos/title/1080p30/partial_movie_files/Outline/606393583_3573841860_1067172829.mp4'
-file 'file:D:/research/jet_tagging/media/videos/title/1080p30/partial_movie_files/Outline/1655731396_3352721805_1111014896.mp4'
-file 'file:D:/research/jet_tagging/media/videos/title/1080p30/partial_movie_files/Outline/1655731396_3295509682_2779242151.mp4'
-file 'file:D:/research/jet_tagging/media/videos/title/1080p30/partial_movie_files/Outline/1655731396_1780890915_1254334323.mp4'
-file 'file:D:/research/jet_tagging/media/videos/title/1080p30/partial_movie_files/Outline/1655731396_200065533_969838812.mp4'
-file 'file:D:/research/jet_tagging/media/videos/title/1080p30/partial_movie_files/Outline/1655731396_3304127546_444406119.mp4'
-file 'file:D:/research/jet_tagging/media/videos/title/1080p30/partial_movie_files/Outline/1655731396_2976219318_689748012.mp4'
-file 'file:D:/research/jet_tagging/media/videos/title/1080p30/partial_movie_files/Outline/1655731396_3583740062_1831442286.mp4'

@@ -1,3 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:D:/research/jet_tagging/media/videos/title/1080p30/partial_movie_files/Title/606393583_2302697610_223132457.mp4'
-file 'file:D:/research/jet_tagging/media/videos/title/1080p30/partial_movie_files/Title/1655731396_4140373053_2998626306.mp4'

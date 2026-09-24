@@ -89,14 +89,18 @@ $null
 # ===== PySR / symbolic-regression scratch (outputs/) =====
 outputs/
 
-# training run error logs
+# training run error/crash logs (any suffix form)
 experiments/*.log.err
+experiments/*.err.*
+experiments/*.log.*
 
 # ===== AGENTS / SKILLS (local) =====
 .agents/
 skills-lock.json
 
 # ===== MANIM SLIDES (source .py is tracked; renders are regenerable) =====
+# NOTE: bare `media/` = repo-root manim dump (manim run from root); never track renders
+media/
 manim_slides/media/
 manim_slides/slides/
 manim_slides/deck.html
