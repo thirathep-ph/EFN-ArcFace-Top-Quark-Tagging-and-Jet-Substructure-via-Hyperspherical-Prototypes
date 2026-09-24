@@ -238,7 +238,7 @@ def main():
     ax.legend(lines1 + lines2, labels1 + labels2, loc="best", fontsize=7)
 
     # Fix color refs (defined via figure_style COLORS).
-    save_fig(fig, "arc_order_profile.png", to_paper=False)
+    save_fig(fig, "arc_order_profile.png")
 
     out = EXPERIMENTS / "arc_order_profile.json"
     payload = {

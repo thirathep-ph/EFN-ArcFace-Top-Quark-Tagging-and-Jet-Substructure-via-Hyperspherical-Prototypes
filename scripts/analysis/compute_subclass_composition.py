@@ -1,6 +1,6 @@
 """Regenerate the subclass composition heatmap with canonical Core/Edge labels.
 
-The paper's headline subclass partition clusters on PREDICTED labels over
+The headline subclass partition clusters on PREDICTED labels over
 the full 404k test set (what the model sees) and maps the largest cluster to
 Core, the second to Edge.  Use --partition true to reproduce the GT check.
 The composition heatmap must use the SAME partition and naming so its caption
@@ -14,7 +14,7 @@ Artifacts read:
 
 Output:
   * experiments/subclass_composition.json
-  * paper/figures/subclass_composition_heatmap.png  (and experiments copy)
+  * docs/figures/subclass_composition_heatmap.png  (frozen gallery copy; regenerate into experiments/)
 """
 from __future__ import annotations
 
@@ -115,7 +115,7 @@ def main() -> None:
     ax.set_ylabel(f"Discovered subclass ({args.partition}-label partition)")
     ax.tick_params(axis="y", rotation=0)
     plt.tight_layout()
-    save_fig(fig, "subclass_composition_heatmap.png", to_paper=True)
+    save_fig(fig, "subclass_composition_heatmap.png")
 
     with open(OUT_JSON, "w") as f:
         json.dump({"n_events": int(len(labels)), "composition": composition}, f, indent=2)

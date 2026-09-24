@@ -9,7 +9,7 @@ Exp 3 (untrained model + real data): fresh random-init TopTaggingModel,
 forward only on real 50k test events. If k*=2 appears, architecture gives
 it from birth; if not, training is necessary.
 
-Predictions use each model's own centers, margin-free (same rule as paper).
+Predictions use each model's own centers, margin-free (same inference rule).
 Artifact: experiments/null_control.json
 """
 import json

@@ -3,7 +3,7 @@
 Evaluates the ``embedding_dim=2`` ArcFace model (trained with the canonical
 config: s=16, m=0.5, particle_dim=128, seed 42, 50 epochs) against the
 canonical 64-d reference on the full test set, and decides the equivalence
-gate that drives the paper's dimensionality claim.
+gate that drives the reported dimensionality result.
 
 Artifacts
 ---------

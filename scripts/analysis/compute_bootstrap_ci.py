@@ -33,7 +33,7 @@ from pathlib import Path
 from arcefn.utils.paths import EXPERIMENTS, DATA_DIR
 from arcefn.utils.figure_style import (
     apply_style, panel_label, add_grid, save_fig,
-    COLORS, LEGEND_KWARGS, PAPER_FIGURES,
+    COLORS, LEGEND_KWARGS,
 )
 apply_style()
 from arcefn.models.efn_arcface import TopTaggingModel

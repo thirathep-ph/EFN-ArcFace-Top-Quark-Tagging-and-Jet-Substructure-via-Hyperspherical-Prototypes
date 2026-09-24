@@ -104,10 +104,7 @@ def main():
         panel_events=phys_events[panel_mask]
         avg_path=os.path.join(OUT_DIR, f"{stem}_avg.png")
         plot_deta_dphi_plane(panel_events, label=label, save_path=avg_path)
-        # B-minimal: paper keeps canonical 64-d; only canonical run copies to paper/figures
-        if is_canonical:
-            paper_path=os.path.join(repo_root,"paper","figures",f"deta_dphi_{stem}_avg.png")
-            copy2(avg_path, paper_path)
+        # Outputs stay under OUT_DIR (experiments/)
         # representative: closest to centroid
         if subclass is not None:
             centroid=centroids[subclass]
@@ -124,11 +121,9 @@ def main():
         rep_event=load_events_by_indices(TEST_H5, np.array([rep_idx]))
         rep_path=os.path.join(OUT_DIR, f"{stem}_rep.png")
         plot_representative_jet(rep_event[0], title=f"{label} representative (medoid)", save_path=rep_path)
-        if is_canonical:
-            copy2(rep_path, os.path.join(repo_root,"paper","figures",f"deta_dphi_{stem}_rep.png"))
         results["panels"][stem]={"label":label,"n_total":n_total,"n_plotted":n_plot,"rep_idx":int(rep_idx)}
         print(f"  {stem}: n_total={n_total} n_plot={n_plot} rep={rep_idx}")
-    # per-model json + canonical copy for REPRODUCING
+    # per-model json
     out_json=os.path.join(OUT_DIR, "deta_dphi_planes.json")
     with open(out_json,"w") as f: json.dump(results,f,indent=2)
     if is_canonical:

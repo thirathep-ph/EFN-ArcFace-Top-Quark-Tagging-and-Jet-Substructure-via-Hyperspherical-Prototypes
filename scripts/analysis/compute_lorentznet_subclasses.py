@@ -1,6 +1,6 @@
-"""LorentzNet + ArcFace subclass analysis, compared to the EFN paper partition.
+"""LorentzNet + ArcFace subclass analysis, compared to the EFN reported partition.
 
-Runs the SAME pipeline the paper uses for EFN (spectral clustering + eigengap
+Runs the SAME pipeline used for EFN (spectral clustering + eigengap
 on L2-normalized embeddings per TRUE class, max_k=5, largest cluster -> Core,
 second -> Edge, subclass id = sc%2 + 2*cls) on the trained LorentzNet model,
 then compares the discovered subclasses to the canonical EFN partition via ARI

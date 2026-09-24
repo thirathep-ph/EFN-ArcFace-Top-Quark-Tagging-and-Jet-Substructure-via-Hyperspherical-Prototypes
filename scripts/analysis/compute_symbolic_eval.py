@@ -2,8 +2,8 @@
 
 Table-5 traceability: the compact equations discovered by PySR
 (experiments/physics_sr/fit_full.json) are scored end-to-end on the
-404k test events, reproducing the c=6 and c=21 metrics quoted in the
-paper (corr/acc/auc/rej50) from a single reproducible script.
+404k test events, reproducing the c=6 and c=21 metrics (corr/acc/auc/rej50)
+reported in docs/RESULTS.md from a single reproducible script.
 
 Pipeline (identical to fit_physics_sr.py):
   X0      = dimless features (Mass/pT, mSD/pT, ...) from rf_cache_test.npz

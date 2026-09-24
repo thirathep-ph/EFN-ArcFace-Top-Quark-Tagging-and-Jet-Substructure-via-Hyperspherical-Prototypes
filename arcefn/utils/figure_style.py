@@ -1,7 +1,7 @@
 """
 Shared Figure Composition Standards for Publication Figures
 ===========================================================
-All paper figures should import and use these constants/functions
+All result figures should import and use these constants/functions
 for visual consistency (font, color, legend, panel labels, grid).
 """
 import matplotlib.pyplot as plt
@@ -10,7 +10,6 @@ from pathlib import Path
 
 # ── Paths ──────────────────────────────────────────────────────────────────
 _REPO = Path(__file__).resolve().parents[2]
-PAPER_FIGURES = _REPO / "paper" / "figures"
 EXPERIMENTS = _REPO / "experiments"
 
 # ── Typography ──────────────────────────────────────────────────────────────
@@ -117,12 +116,11 @@ def add_grid(ax, **kwargs):
     ax.set_axisbelow(True)
 
 
-def save_fig(fig, name, to_paper=True, **kwargs):
-    """Save figure to experiments/ and optionally copy to paper/figures/.
+def save_fig(fig, name, **kwargs):
+    """Save figure to experiments/. Gallery figures in docs/figures/ are frozen and never overwritten by code.
     Uses ARCEFN_MODEL_DIR env var for model-specific subdirectory, falls back to EXPERIMENTS.
     """
     import os
-    from shutil import copy2
     model_dir_env = os.environ.get('ARCEFN_MODEL_DIR', '').strip()
     if model_dir_env:
         exp_path = Path(model_dir_env) / name
@@ -130,7 +128,5 @@ def save_fig(fig, name, to_paper=True, **kwargs):
         exp_path = EXPERIMENTS / name
     exp_path.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(str(exp_path), **{"dpi": DPI, "bbox_inches": "tight", **kwargs})
-    if to_paper:
-        copy2(str(exp_path), str(PAPER_FIGURES / name))
     plt.close(fig)
     print(f"  Saved: {name}")

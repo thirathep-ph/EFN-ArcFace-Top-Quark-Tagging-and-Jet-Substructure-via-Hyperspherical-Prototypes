@@ -1,6 +1,6 @@
-"""Generate SciPost-style Pareto front figure for symbolic regression results.
+"""Generate publication-style Pareto front figure for symbolic regression results.
 
-SciPost style: minimal, grayscale-friendly, LaTeX math labels, no gimmicky
+Publication style: minimal, grayscale-friendly, LaTeX math labels, no gimmicky
 shading or AI-style annotations. Standard scientific scatter with key
 equations annotated in a legend-like inset.
 """
@@ -17,7 +17,6 @@ from arcefn.utils.paths import EXPERIMENTS
 from arcefn.utils.figure_style import add_grid, save_fig, LEGEND_KWARGS
 
 FIT_PATH = EXPERIMENTS / "physics_sr" / "fit_full.json"
-FIGURES = EXPERIMENTS.parent / "paper" / "figures"
 
 SELECTED_C = 6
 
@@ -53,7 +52,7 @@ def main():
     L = np.array([e["loss"] for e in eqs])
     nested = np.array([has_nested(e["equation"]) for e in eqs])
 
-    # --- Publication styling (SciPost / matplotlib best practice) ---
+    # --- Publication styling (publication / matplotlib best practice) ---
     # OO interface, constrained_layout, serif CM, explicit grid/ticks, colorblind palette
     plt.rcParams.update({
         "font.family": "serif",
@@ -137,7 +136,7 @@ def main():
     ax.grid(True, which="minor", linestyle=":", linewidth=0.5, alpha=0.18, color="#555555")
     ax.set_axisbelow(True)
 
-    # Legend outside data, thin border — SciPost single-col friendly
+    # Legend outside data, thin border — single-column friendly
     leg = ax.legend(loc='upper right', **{**LEGEND_KWARGS, "fontsize": 8.5, "framealpha": 1.0, "edgecolor": "#333333"},
                     handlelength=1.7, handletextpad=0.5, borderpad=0.45, labelspacing=0.35)
     leg.get_frame().set_linewidth(0.8)

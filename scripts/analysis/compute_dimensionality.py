@@ -1,7 +1,7 @@
 """
 Dimensionality Metrics: TwoNN, Participation Ratio, Class Center Angle
 =======================================================================
-Computes dimensionality metrics from Table 4 of the paper:
+Computes dimensionality metrics for the results gallery:
 
 1. **TwoNN intrinsic dimension** ??" nearest-neighbor ratio estimator.
    Expected: ~2.17

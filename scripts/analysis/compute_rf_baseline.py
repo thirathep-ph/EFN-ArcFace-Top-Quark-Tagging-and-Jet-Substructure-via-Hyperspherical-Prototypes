@@ -69,7 +69,7 @@ def load_features(split: str, max_events: int, seed: int = 42):
 
 
 def compute_rejection_at_tpr(labels, scores, target_tprs=(0.3, 0.5, 0.7, 0.8, 0.9, 0.95)):
-    """Rejection (1/FPR) at fixed signal TPR, matching the paper's method."""
+    """Rejection (1/FPR) at fixed signal TPR, matching the reported method."""
     fpr, tpr, _ = roc_curve(labels, scores)
     rates = {}
     for target in target_tprs:

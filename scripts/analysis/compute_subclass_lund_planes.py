@@ -6,7 +6,7 @@ split QCD-Edge into TN vs FN and Top-Core into TP vs FP (under true labels
 these pairings were TN vs FP and TP vs FN).
 
 Complements the status-only Lund planes (lund_status_*.png) with the
-subclass-resolved view that the paper's misclassification-localization claim
+subclass-resolved view supporting the misclassification-localization result
 needs: every FP belongs to QCD-Edge and every FN to Top-Core, so the
 physically interesting panels are
 
@@ -27,7 +27,7 @@ Artifacts read:
 
 Output:
   * MODEL_DIR/lund_planes/subclass_*.png
-  * paper/figures/lund_subclass_*.png
+  * docs/figures/lund_subclass_*.png  (frozen gallery copy)
   * experiments/subclass_lund_planes.json  (per-panel counts)
 """
 from __future__ import annotations
@@ -180,14 +180,9 @@ def main() -> None:
         lund_path = os.path.join(LUND_DIR, f"{stem}.png")
         panel_events = phys_events[panel_mask]
         plot_lund_plane(panel_events, label=label, save_path=lund_path)
-        # Paper figures are at repo root / paper / figures
-        repo_root = os.path.dirname(os.path.dirname(model_dir))
-        paper_path = os.path.join(repo_root, "paper", "figures",
-                                  f"lund_subclass_{stem.replace('subclass_', '')}.png")
-        copy2(lund_path, paper_path)
         results["panels"][stem] = {"subclass": SUBCLASS_NAMES[sc], "status": status_filter,
                                    "n_total": n_total, "n_plotted": n_panel, **panel_stats(panel_events)}
-        print(f"  {stem}: n_total={n_total:>7d}  n_plotted={n_panel:>5d}  -> {os.path.basename(paper_path)}")
+        print(f"  {stem}: n_total={n_total:>7d}  n_plotted={n_panel:>5d}  -> {os.path.basename(lund_path)}")
 
     with open(OUT_JSON, "w") as f:
         json.dump(results, f, indent=2)

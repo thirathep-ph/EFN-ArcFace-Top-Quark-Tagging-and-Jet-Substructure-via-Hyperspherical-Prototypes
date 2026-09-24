@@ -262,7 +262,7 @@ def main():
     panel_label(ax, "b")
     ax.set_title("Within-subclass trends (mass rescaled) + subclass strips", fontsize=9, pad=6)
 
-    save_fig(fig, "ordered_vs_grouped.png", to_paper=False)
+    save_fig(fig, "ordered_vs_grouped.png")
 
     out = EXPERIMENTS / "ordered_vs_grouped.json"
     results["elapsed_s"] = round(time.time() - t0, 1)

@@ -1,7 +1,7 @@
 """Symbolic-regression rediscovery of the per-subclass zg power law (Todo 4).
 
 For each spectral subclass (QCD_Core, QCD_Edge, Top_Core, Top_Edge) the DGLAP
-fit in the paper is  P(z) = A z^alpha (1-z)^beta  on zg in (0.1, 0.5).  Here we
+reference fit is  P(z) = A z^alpha (1-z)^beta  on zg in (0.1, 0.5).  Here we
 ask PySR to rediscover that law *from the histogram alone*, with inputs
 x = [log z, log(1-z)] and target y = log P_hist(z).  If the law is real, SR
 must return  y = c0 + alpha log z + beta log(1-z)  with alpha matching the
@@ -115,7 +115,7 @@ def main():
         "criterion": "law rediscovered (SR loss < 1.05 x log-space linear floor)"
                      " AND min|alpha_sr - alpha_ref| < tol per subclass, where"
                      " alpha_ref = the better-matching of log-space LS (alpha_lr)"
-                     " or the paper's curve_fit (alpha_fitzg; estimator spread is"
+                     " or the reference curve_fit (alpha_fitzg; estimator spread is"
                      " intrinsic when beta is large, e.g. Top_Edge beta~6.6)",
         "found_all_subclasses": found_all,
         "max_delta_alpha_min": float(max_da),

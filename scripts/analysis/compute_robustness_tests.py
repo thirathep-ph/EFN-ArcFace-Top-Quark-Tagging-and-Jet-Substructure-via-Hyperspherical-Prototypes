@@ -1,7 +1,7 @@
 """
 Robustness Tests: 4-Momentum Rescaling, Azimuthal Rotation, Constituent Dropout
 ================================================================================
-Computes three robustness tests from Table 3 of the paper:
+Computes three robustness tests (see docs/RESULTS.md):
 
 1. **4-Momentum Rescaling** — rescale all constituent four-momenta
    (E, px, py, pz) by factors ``[0.5, 0.8, 1.0, 1.5, 2.0]`` (a jet-energy-scale

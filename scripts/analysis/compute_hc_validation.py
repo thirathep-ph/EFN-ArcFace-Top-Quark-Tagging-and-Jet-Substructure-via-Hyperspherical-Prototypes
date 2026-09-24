@@ -58,10 +58,6 @@ for i, cls in enumerate([0, 1]):
 out_png = Path('experiments/hc_dendrogram.png')
 plt.savefig(out_png, dpi=300, bbox_inches='tight', facecolor='white')
 plt.close(fig)
-import shutil
-shutil.copy(out_png, Path('paper/figures/hc_dendrogram.png'))
-shutil.copy(out_png, Path('paper/overleaf/figures/hc_dendrogram.png'))
-shutil.copy(out_png, Path('paper_arxiv/figures/hc_dendrogram.png'))
 print('saved dendrogram', out_png, 'size', out_png.stat().st_size)
 results['power_required_n_per_group_d0.2'] = 393
 results['power_required_n_per_group_d0.5'] = 64

@@ -1,4 +1,4 @@
-"""Cohen's d on the PREDICTED partition (traceable source for paper).
+"""Cohen's d on the PREDICTED partition (traceable source for the reported numbers).
 
 Uses canonical model predictions + spectral subclasses per predicted class
 (same pipeline as compute_mass_matched_dglap.py), mass/tau32 from rf_cache.

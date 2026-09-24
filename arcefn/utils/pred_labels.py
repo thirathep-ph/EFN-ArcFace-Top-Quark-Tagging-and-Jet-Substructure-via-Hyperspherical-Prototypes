@@ -1,6 +1,6 @@
 """Predicted labels (what the model sees) for subclass analyses.
 
-Primary partition throughout the paper is per-PREDICTED-class clustering.
+Primary partition for all subclass analyses is per-PREDICTED-class clustering.
 Predictions use no angular margin (inference rule), matching
 ``compute_subclass_label_comparison.py``.
 """

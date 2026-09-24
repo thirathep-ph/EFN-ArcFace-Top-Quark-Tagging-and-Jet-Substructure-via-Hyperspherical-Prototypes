@@ -13,7 +13,7 @@ Transitions:
 - QCD Core->Edge, Top Core->Edge (predicted subclasses)
 - QCD-Edge->Top-Core, QCD-Core->Top-Edge (cross-class steps)
 
-Outputs (experiments only, not copied to paper/figures):
+Outputs (experiments only):
 - experiments/transition_vectors_3way.json
 - experiments/transition_vectors_3way.png
 """
@@ -327,7 +327,7 @@ def main():
         panel_label(ax, chr(97 + col))
         ax.set_title(f"{name}\nPC1+PC2={100*sum(variance):.1f}%", fontsize=8, pad=6)
 
-    save_fig(fig, "transition_vectors_3way.png", to_paper=False)
+    save_fig(fig, "transition_vectors_3way.png")
     out = EXPERIMENTS / "transition_vectors_3way.json"
     results["elapsed_s"] = round(time.time() - t0, 1)
     with open(out, "w", encoding="utf-8") as f:

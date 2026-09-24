@@ -28,8 +28,7 @@ checkpoints/
 *.png
 *.pdf
 *.svg
-!paper/figures/*.png
-!paper_arxiv/figures/*.png
+!docs/figures/*.png
 !docs/infographic.png
 
 # ===== PYTHON =====
@@ -69,14 +68,6 @@ Desktop.ini
 *_out.txt
 $null
 
-# ===== PAPER BUILD ARTIFACTS (source .tex is tracked) =====
-paper/main.pdf
-paper/submission.zip
-paper/submission/
-paper/tables/
-paper/overleaf/
-paper/overleaf.zip
-
 # ===== LATEX BUILD ARTIFACTS =====
 *.aux
 *.bbl
@@ -90,7 +81,7 @@ paper/overleaf.zip
 
 # ===== REPRODUCIBILITY (small result JSONs ARE tracked) =====
 # experiments/ checkpoints/plots stay ignored (regenerable);
-# the small result JSONs back every number in the paper, so they are versioned.
+# the small result JSONs back every reported number, so they are versioned.
 *.onnx
 !experiments/
 !experiments/**/*.json
@@ -104,15 +95,6 @@ experiments/*.log.err
 # ===== AGENTS / SKILLS (local) =====
 .agents/
 skills-lock.json
-paper/arxiv_template.tex
-paper_arxiv/*.pdf
-paper_arxiv/*.aux
-paper_arxiv/*.bbl
-paper_arxiv/*.blg
-paper_arxiv/*.out
-paper_arxiv/*.log
-paper_arxiv.tar.gz
-paper_arxiv.pdf
 
 # ===== MANIM SLIDES (source .py is tracked; renders are regenerable) =====
 manim_slides/media/

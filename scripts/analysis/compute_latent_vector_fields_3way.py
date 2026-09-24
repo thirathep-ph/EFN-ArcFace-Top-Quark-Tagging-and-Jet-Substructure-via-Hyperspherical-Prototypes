@@ -2,7 +2,7 @@
 
 Uses one deterministic 50k-event test subset for ArcFace, CosLinear, and
 Linear so the comparison is paired.  Embeddings are L2-normalized before a
-per-head PCA-2 projection, matching the paper's three-head PCA panels.  At
+per-head PCA-2 projection, matching the three-head PCA panels in docs/RESULTS.md.  At
 each 2D grid cell, a local least-squares fit estimates the direction in
 which mass, tau32, and decision margin increase.  The result tests whether
 the manifold has coherent physical directions, not only clusters.

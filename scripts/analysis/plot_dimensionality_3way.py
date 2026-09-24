@@ -41,12 +41,8 @@ for ax, h, lab in zip(axes, heads, labels):
 axes[0].set_ylabel("Variance fraction")
 # no suptitle, no italic footnote — caption carries interpretation
 
-out = pathlib.Path("paper/figures/dimensionality_3way.png")
+out = pathlib.Path("experiments/dimensionality_3way.png")
 out.parent.mkdir(parents=True, exist_ok=True)
 fig.savefig(out, dpi=300, bbox_inches="tight")
 print(f"saved to {out} {out.stat().st_size} bytes")
-import shutil
-shutil.copy(out, pathlib.Path("paper_arxiv/figures/dimensionality_3way.png"))
-shutil.copy(out, pathlib.Path("paper/overleaf/figures/dimensionality_3way.png"))
-print("copied to arxiv/overleaf")
 plt.close(fig)

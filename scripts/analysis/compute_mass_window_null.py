@@ -1,7 +1,7 @@
 """
 Compute correct mass-window null baselines (B2 fix).
 
-The paper previously compared mass-window AUC to 0.5 ("random guessing").
+Mass-window AUC was previously compared to 0.5 ("random guessing").
 That null is wrong: a mass-threshold classifier inside a window containing
 its threshold is NOT constant, and a majority-class (constant) classifier
 already achieves the window prevalence.

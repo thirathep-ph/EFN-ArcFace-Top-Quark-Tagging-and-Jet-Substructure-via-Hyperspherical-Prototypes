@@ -1,6 +1,6 @@
 """Traceability for the tau32-ablation claim in the symbolic-distillation section.
 
-The paper states that disabling the tau32 term in the c=6 equation reduces
+Reported: disabling the tau32 term in the c=6 equation reduces
 the score to tanh(m/pT) alone. This script makes that evaluation explicit and
 reproducible: it takes the c=6 equation from fit_full.json, zeroes the tau32
 input (the only place tau32 enters), and scores the resulting score function
@@ -99,7 +99,7 @@ def main() -> None:
         "max_abs_diff_ablated_vs_c2": float(np.max(np.abs(y_hat - y_hat_c2))),
         "paper_claim": "disabling tau32 reduces to tanh(m/pT) alone (86.6% acc, AUC 0.906)",
         "note": "Committed c=2 eval (symbolic_eval.json) gives acc 0.8824, AUC 0.9059; "
-                "the paper's 86.6% was not traceable to a committed artifact and is "
+                "the reported 86.6% was not traceable to a committed artifact and is "
                 "replaced by the reproducible value here.",
     }
     (OUT_DIR / "symbolic_ablation.json").write_text(json.dumps(out, indent=2))

@@ -9,7 +9,7 @@ so the figure cannot bake the answer into the frame.
 
 Outputs:
 - experiments/latent_vector_fields_parh_3x3.json
-- experiments/latent_vector_field_parh_3x3.png (+ paper/figures copy)
+- experiments/latent_vector_field_parh_3x3.png (gallery copy lives frozen in docs/figures)
 """
 
 import gc

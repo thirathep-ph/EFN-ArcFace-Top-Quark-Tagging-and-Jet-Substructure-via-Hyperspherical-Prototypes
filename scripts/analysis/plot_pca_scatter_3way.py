@@ -63,12 +63,8 @@ handles = [Line2D([0], [0], marker='o', color='w', markerfacecolor=COLORS["qcd"]
            Line2D([0], [0], marker='o', color='w', markerfacecolor=COLORS["top"], markersize=6, alpha=0.8)]
 fig.legend(handles, ["QCD", "Top"], loc="upper center", ncol=2, fontsize=8, frameon=True, bbox_to_anchor=(0.5, 1.02))
 
-out = pathlib.Path("paper/figures/pca_scatter_3way.png")
+out = pathlib.Path("experiments/pca_scatter_3way.png")
 out.parent.mkdir(parents=True, exist_ok=True)
 fig.savefig(out, dpi=300, bbox_inches="tight")
 print(f"saved {out} {out.stat().st_size}")
-import shutil
-shutil.copy(out, pathlib.Path("paper_arxiv/figures/pca_scatter_3way.png"))
-shutil.copy(out, pathlib.Path("paper/overleaf/figures/pca_scatter_3way.png"))
-print("copied")
 plt.close(fig)

@@ -1,6 +1,6 @@
 """Exploratory Data Analysis for Top Tagging Reference Dataset.
 
-Generates 4 figures + 1 statistics table for the paper appendix.
+Generates 4 figures + 1 statistics table for the results appendix (docs/RESULTS.md).
 All kinematics computed from full training set (1.2M events).
 Substructure features from 100K training subset via FastJet.
 """

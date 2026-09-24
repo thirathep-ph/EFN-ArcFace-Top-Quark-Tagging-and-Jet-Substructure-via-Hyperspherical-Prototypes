@@ -1,7 +1,7 @@
 """Compare subclass clustering methods on the ArcFace embedding sphere.
 
 Methods compared per class (predicted labels, primary partition):
-  - spectral clustering + eigengap (current paper pipeline)
+  - spectral clustering + eigengap (current analysis pipeline)
   - spherical K-means (KMeans on L2-normalized embeddings), k in 2..5
   - vMF mixture via EM (soft assignments, per-cluster kappa), k in 2..5
 

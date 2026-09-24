@@ -1,6 +1,6 @@
 """Angular concentration of discovered subclasses on the ArcFace sphere.
 
-For each per-class spectral-clustering partition (k=2, current paper pipeline)
+For each per-class spectral-clustering partition (k=2, current analysis pipeline)
 and the spherical-K-means k=2 partition, compute per-subclass directional
 statistics on the L2-normalized embeddings:
 

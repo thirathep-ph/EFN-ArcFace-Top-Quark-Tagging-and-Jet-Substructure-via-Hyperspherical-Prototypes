@@ -1,7 +1,7 @@
 """Compare true-label vs predicted-label subclass clustering.
 
-The paper's headline subclass analysis (Table 5, subclass sizes, ARI) is
-produced by clustering on TRUE class labels, while the paper text says
+The headline subclass analysis (subclass sizes, ARI) is
+produced by clustering on TRUE class labels, while the reported text says
 "predicted class".  This script runs the IDENTICAL spectral-clustering +
 eigengap pipeline on BOTH partitions and quantifies whether the two give the
 same physical subclasses, so the canonical partition can be chosen honestly.
