@@ -12,7 +12,7 @@ EFN ([2→128→128→128] Φ, energy-weighted sum pool, [128→128→64] ρ) �
 
 </details>
 
-## 1. Methodology (paper §2)
+## 1. Methodology
 
 Jets → centered (Δη, Δφ) + energy weights → EFN → 64-D embedding → nearest of 2 learned prototypes. Subclasses found by spectral clustering per predicted class (eigengap picks k=2).
 
@@ -27,7 +27,7 @@ Representative Top energy-flow map (3 deposits: b + W→qq̄).
 
 </details>
 
-## 2. Classification performance (paper §3.1)
+## 2. Classification performance
 
 **Takeaway:** competitive with plain EFN baselines; RF on hand-crafted features leads — the contribution is the readable representation, not accuracy.
 
@@ -57,7 +57,7 @@ Model score vs jet mass — gradual transition, not a sharp mass cutoff; misclas
 
 </details>
 
-## 3. Subclass discovery & physics validation (paper §3.2)
+## 3. Subclass discovery & physics validation
 
 **Takeaway:** 4 subclasses found, 3 of 4 validated against QCD; Top-Edge excluded (non-identifiable fit). Predicted-vs-truth partitions agree (ARI 0.79).
 
@@ -147,7 +147,7 @@ Top-Edge representative map.
 
 </details>
 
-## 4. Geometry & supporting evidence (paper §3.3)
+## 4. Geometry & supporting evidence
 
 **Takeaway:** embeddings collapse to 2-D (TwoNN 2.21, PCA 83.6+16.4); prototypes 43.6° apart; hypersphere alone (CosLinear) keeps balanced subclasses, margin m=0.5 resolves Top Core vs Edge. Null controls (noise, untrained) also give k*=2 — so k*=2 alone proves nothing; the physics case rests on §3.
 
@@ -171,7 +171,7 @@ TwoNN + participation ratio per head: ArcFace TwoNN 2.21 vs 4.98/5.19 controls.
 
 </details>
 
-## 5. Symbolic distillation (paper §3.4)
+## 5. Symbolic distillation
 
 **Takeaway:** PySR recovers tanh(m/pT) − 0.348·τ32 — the model rediscovers mass+3-prongness from raw inputs. Leading-physics distillate only (rejection 33× vs 124×), not a replacement.
 
@@ -183,14 +183,14 @@ Pareto front: compact c=6 form (leading-physics distillate, not a replacement �
 
 </details>
 
-## 6. Discussion (paper §4)
+## 6. Discussion
 
 - **What the prototypes learned:** high-mass/low-τ32 (Top) vs low-mass/high-τ32 (QCD) — checked, not assumed.
 - **Why the hypersphere matters:** 3-head comparison isolates it — CosLinear keeps balanced subclasses without any margin; Linear collapses.
 - **Limitations (stated openly):** simulation-only (Pythia 8), binary task, no detector effects, Top-Edge excluded, single-seed label-shuffle residual, QCD mass-confounding stated, narrow pT window, OOD scan is hypothesis-generating only.
 - **Future work:** cross-generator check, multi-seed shuffle, full mass-matched table, multi-class.
 
-## 7. Conclusion (paper §5)
+## 7. Conclusion
 
 A 59k-parameter tagger whose binary rule is nearest-prototype on S⁶³ reaches 91.84% with a 2-D, QCD-checked latent geometry: 4 subclasses found, 3 validated, controls run, limits stated. The RF still wins on accuracy — and says so in the abstract.
 

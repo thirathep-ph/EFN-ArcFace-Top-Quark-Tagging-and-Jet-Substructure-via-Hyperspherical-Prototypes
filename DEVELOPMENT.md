@@ -68,7 +68,7 @@ scripts/                            # Training & evaluation
 |   +-- generate_*.py                # Figure generators
 |   +-- fit_*.py                     # PySR symbolic regression
 |   +-- poc_*.py                     # Proof-of-concept / exploratory
-|   +-- regenerate_stale_figures.py  # Re-generates paper figures
+|   +-- regenerate_stale_figures.py  # Re-generates result figures
 +-- scratch/                         # One-off scripts (fixes, combiners)
 
 experiments/                        # Trained model outputs
